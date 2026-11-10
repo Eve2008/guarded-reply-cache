@@ -1,0 +1,10 @@
+{
+ "lang": "en",
+ "words_seen": 5213,
+ "critical": 4122,
+ "critical_in_slot_values": 2901,
+ "share_in_slot_values": 0.7038,
+ "k": 5,
+ "min_count": 3,
+ "min_ratio": 0.9
+}

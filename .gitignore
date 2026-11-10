@@ -1,0 +1,6 @@
+results/emb_*.npy
+results/*.partial.npy
+__pycache__/
+.venv/
+1.1/
+*.tar.gz

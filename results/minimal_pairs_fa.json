@@ -1,0 +1,105 @@
+{
+ "pairs": 956,
+ "counts": {
+  "different_argument": 425,
+  "different_intent": 357,
+  "same_meaning": 174
+ },
+ "auc": {
+  "tri": {
+   "different_intent": 0.8084,
+   "different_argument": 0.5449
+  },
+  "minilm": {
+   "different_intent": 0.8477,
+   "different_argument": 0.752
+  },
+  "e5": {
+   "different_intent": 0.8311,
+   "different_argument": 0.7848
+  },
+  "mpnet": {
+   "different_intent": 0.884,
+   "different_argument": 0.7742
+  },
+  "bgem3": {
+   "different_intent": 0.8862,
+   "different_argument": 0.8589
+  }
+ },
+ "block_rate": {
+  "blocked_ind": {
+   "different_argument": 0.92,
+   "different_intent": 0.6022,
+   "same_meaning": 0.2586
+  },
+  "blocked_freq": {
+   "different_argument": 0.6541,
+   "different_intent": 0.3838,
+   "same_meaning": 0.3851
+  },
+  "blocked_dep": {
+   "different_argument": 0.12,
+   "different_intent": 0.1765,
+   "same_meaning": 0.1782
+  }
+ },
+ "lexicon_size": 4113,
+ "matched_threshold": {
+  "tri": {
+   "tau": 0.4286,
+   "same_meaning": 0.2471,
+   "different_intent": 0.7591,
+   "different_argument": 0.2306
+  },
+  "minilm": {
+   "tau": 0.7515,
+   "same_meaning": 0.2586,
+   "different_intent": 0.7787,
+   "different_argument": 0.6212
+  },
+  "e5": {
+   "tau": 0.94,
+   "same_meaning": 0.2586,
+   "different_intent": 0.7311,
+   "different_argument": 0.6588
+  },
+  "mpnet": {
+   "tau": 0.802,
+   "same_meaning": 0.2586,
+   "different_intent": 0.8655,
+   "different_argument": 0.6635
+  },
+  "bgem3": {
+   "tau": 0.8308,
+   "same_meaning": 0.2586,
+   "different_intent": 0.8375,
+   "different_argument": 0.7929
+  }
+ },
+ "median_similarity_tri": {
+  "different_argument": 0.5,
+  "different_intent": 0.3478,
+  "same_meaning": 0.5181
+ },
+ "median_similarity_minilm": {
+  "different_argument": 0.7002999782562256,
+  "different_intent": 0.5997999906539917,
+  "same_meaning": 0.8622000217437744
+ },
+ "median_similarity_e5": {
+  "different_argument": 0.9229000210762024,
+  "different_intent": 0.9214000105857849,
+  "same_meaning": 0.9563000202178955
+ },
+ "median_similarity_mpnet": {
+  "different_argument": 0.723800003528595,
+  "different_intent": 0.5740000009536743,
+  "same_meaning": 0.8930000066757202
+ },
+ "median_similarity_bgem3": {
+  "different_argument": 0.7554000020027161,
+  "different_intent": 0.7421000003814697,
+  "same_meaning": 0.902999997138977
+ }
+}

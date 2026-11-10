@@ -1,0 +1,10 @@
+{
+ "lang": "fa",
+ "words_seen": 5405,
+ "critical": 4113,
+ "critical_in_slot_values": 2448,
+ "share_in_slot_values": 0.5952,
+ "k": 5,
+ "min_count": 3,
+ "min_ratio": 0.9
+}

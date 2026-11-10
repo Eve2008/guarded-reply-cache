@@ -1,0 +1,957 @@
+a,b,kind,intent_a,intent_b,tri,blocked_ind,blocked_freq,blocked_dep,minilm,e5,mpnet,bgem3
+لطفا لامپ ها را خاموش کن,چراغ‌ها را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.45454545454545453,False,False,False,0.9054574,0.9496111,0.90538144,0.9470795
+لطفا لامپ ها را خاموش کن,لامپ ها را روشن کن,different_intent,iot_hue_lightoff,iot_hue_lightup,0.4090909090909091,True,False,True,0.8044396,0.95521694,0.7581831,0.8561145
+لطفا لامپ ها را خاموش کن,لامپ را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.6666666666666666,False,False,False,0.8632841,0.9547291,0.90061045,0.92342794
+لطفا لامپ ها را خاموش کن,پریز را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.36363636363636365,True,True,False,0.673797,0.91669357,0.7517978,0.76796967
+لطفا لامپ ها را خاموش کن,روشنایی را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.32,False,False,True,0.8622126,0.93416095,0.88328207,0.92206126
+لطفا لامپ ها را خاموش کن,بلندگوها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.4166666666666667,False,True,False,0.7749584,0.9180832,0.63091063,0.835783
+لطفا لامپ ها را خاموش کن,دوشاخه را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.3333333333333333,True,False,False,0.69643223,0.9194693,0.6397805,0.7777858
+لطفا لامپ ها را خاموش کن,صداها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.47619047619047616,False,False,False,0.6023261,0.9112494,0.6803477,0.8274292
+لطفا لامپ ها را خاموش کن,لامپ ها را صورتی کن,different_intent,iot_hue_lightoff,iot_hue_lightchange,0.391304347826087,True,True,True,0.5547675,0.9441954,0.61993474,0.73129964
+لطفا لامپ ها را خاموش کن,سوکت ها را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.45454545454545453,False,False,False,0.8115589,0.9460507,0.85499346,0.8137841
+لطفا لامپ ها را خاموش کن,سوکت را لطفا خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.36363636363636365,True,False,False,0.78417975,0.9432684,0.8411925,0.8266314
+همکف را تمیز کن,خانه را تمیز کن,different_argument,iot_cleaning,iot_cleaning,0.3684210526315789,True,True,False,0.7424028,0.92252874,0.9229988,0.75499475
+همکف را تمیز کن,زمین را تمیز کن,different_argument,iot_cleaning,iot_cleaning,0.3684210526315789,True,True,False,0.6418835,0.9194624,0.8889087,0.74701613
+در ایران ساعت چند است,در تبریز ساعت چند است,different_argument,datetime_query,datetime_query,0.5172413793103449,True,True,False,0.8349842,0.89892167,0.91990453,0.76942974
+در ایران ساعت چند است,در تهران ساعت چند است,different_argument,datetime_query,datetime_query,0.6923076923076923,True,False,False,0.8652545,0.9546349,0.9614423,0.8741349
+در ایران ساعت چند است,در اصفهان ساعت چند است,different_argument,datetime_query,datetime_query,0.6666666666666666,True,False,False,0.84313893,0.9103277,0.94812834,0.7734604
+در ایران ساعت چند است,در زنجان ساعت چند است,different_argument,datetime_query,datetime_query,0.6296296296296297,True,True,False,0.871989,0.8888393,0.8155134,0.7371311
+در ایران ساعت چند است,در اهواز ساعت چند است,different_argument,datetime_query,datetime_query,0.5714285714285714,True,True,False,0.7795569,0.8960351,0.855692,0.76388246
+در ایران ساعت چند است,در مشهد ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.8081348,0.8971083,0.81827474,0.76605046
+در ایران ساعت چند است,در اراک ساعت چند است,different_argument,datetime_query,datetime_query,0.5925925925925926,True,True,False,0.8193681,0.898158,0.80030656,0.74264705
+در ایران ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,False,False,0.75590676,0.92082965,0.6442256,0.78798985
+در ایران ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.7589909,0.8881956,0.8233149,0.734269
+درباره آلارم‌هایم به من بگو,ماز آلارم‌هایم را به من بگو,same_meaning,alarm_query,alarm_query,0.5517241379310345,True,True,False,0.79348564,0.96409655,0.6732856,0.9286318
+گروه در حال پخش چیست,اهنگ در حال پخش چیست,same_meaning,music_query,music_query,0.5555555555555556,True,True,False,0.6819349,0.8986121,0.82028085,0.80099094
+تاریخ امروز را به من بگو,مسیر امروز را به من بگو,different_intent,datetime_query,transport_query,0.4583333333333333,False,False,False,0.79017365,0.94547534,0.72846353,0.7836076
+امروز چندم است,امروز ابری است,different_intent,datetime_query,weather_query,0.42857142857142855,True,True,False,0.43077767,0.90492284,0.5805783,0.66220605
+عشق را پخش کن,موزیک پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,False,False,0.3224676,0.91435474,0.3604704,0.6287777
+عشق را پخش کن,ابی پخش کن,different_argument,play_music,play_music,0.375,True,False,False,0.5679968,0.9077419,0.54001504,0.5759689
+عشق را پخش کن,رپ پخش کن,different_argument,play_music,play_music,0.4,True,True,False,0.3787157,0.91058266,0.36781427,0.6041118
+عشق را پخش کن,ترس را پخش کن,different_argument,play_music,play_music,0.375,True,False,False,0.5265112,0.9295869,0.380102,0.7286676
+عشق را پخش کن,پاپ پخش کن,different_argument,play_music,play_music,0.375,True,True,False,0.4333019,0.91826904,0.46054524,0.5747209
+عشق را پخش کن,نفرین را پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,True,False,0.46980757,0.9241339,0.4479785,0.73201406
+عشق را پخش کن,آهنگ ها را پخش کن,different_argument,play_music,play_music,0.3157894736842105,True,False,False,0.45209873,0.8992791,0.46844536,0.73793876
+عشق را پخش کن,آهنگ پخش کن,different_argument,play_music,play_music,0.35294117647058826,True,False,False,0.39139795,0.9166665,0.53363717,0.7208709
+عشق را پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.3333333333333333,True,False,False,0.52617544,0.9033009,0.48393297,0.53697795
+عشق را پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.4,True,False,False,0.61410415,0.92410016,0.43056196,0.7505865
+عشق را پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.35294117647058826,True,False,False,0.3696223,0.89525366,0.32220867,0.7039542
+عشق را پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.3,True,False,False,0.40981573,0.89699084,0.34553865,0.6273038
+چند تا ابی بزار,چند تا شادمهر بزار,different_argument,play_music,play_music,0.4583333333333333,True,False,False,0.89065397,0.9599665,0.7766227,0.7825848
+یک غذای بیرون بر سفارش بده,مقداری غذای بیرون بر سفارش بده,same_meaning,takeaway_order,takeaway_order,0.6571428571428571,False,True,True,0.9788675,0.9792548,0.9812783,0.9543398
+نور رو کم کن,لطفا صدا را کم کن,different_intent,iot_hue_lightdim,audio_volume_down,0.3333333333333333,False,False,False,0.44383213,0.921543,0.61906654,0.77266574
+نور رو کم کن,لطفا روشنایی را کم کن,same_meaning,iot_hue_lightdim,iot_hue_lightdim,0.2631578947368421,False,False,True,0.7504086,0.9313867,0.94443667,0.927146
+نور رو کم کن,نور را زیاد کن,different_intent,iot_hue_lightdim,iot_hue_lightup,0.375,False,False,True,0.77292764,0.9183504,0.6598543,0.8561897
+نور رو کم کن,نور رو بیشتر کن,different_intent,iot_hue_lightdim,iot_hue_lightup,0.4375,False,False,True,0.7960307,0.9476646,0.64692783,0.86205345
+آیا آنها تحویل در محل دارند,آیا آنها تحویل در منزل دارند,different_argument,takeaway_query,takeaway_query,0.7741935483870968,True,True,False,0.8884503,0.97827137,0.9286044,0.92015004
+لیست آهنگ های راک من را پخش کن,لیست آهنگ های کانتری من را پخش کن,different_argument,play_music,play_music,0.6285714285714286,True,True,False,0.8682215,0.9651155,0.82535994,0.830161
+لیست آهنگ های راک من را پخش کن,لیست آهنگ های باشگاهی من را پخش کن,different_argument,play_music,play_music,0.6111111111111112,True,False,False,0.80893666,0.96210456,0.7766325,0.8073898
+افزایش صدا,لطفا بی صدا,different_intent,audio_volume_up,audio_volume_mute,0.2,True,False,False,0.42797768,0.8752693,0.42929155,0.6222477
+صدا را بی صدا کن,بلندگوها را بی صدا کن,same_meaning,audio_volume_mute,audio_volume_mute,0.5,False,True,False,0.9111526,0.94620776,0.88545036,0.9061668
+صدا را بی صدا کن,موسیقی را بی صدا کن,same_meaning,audio_volume_mute,audio_volume_mute,0.47368421052631576,False,False,False,0.7582401,0.9618879,0.74739426,0.91155624
+ساعت چند است,ساعت ده است,different_argument,datetime_query,datetime_query,0.47058823529411764,True,False,False,0.5802531,0.9194843,0.5127259,0.832286
+امروز هوا چطور است,بیرون هوا چطور است,different_argument,weather_query,weather_query,0.46153846153846156,True,False,True,0.84904236,0.94036114,0.85951376,0.9003519
+امروز هوا چطور است,امروز بیرون چطور است,same_meaning,weather_query,weather_query,0.5384615384615384,True,False,False,0.7739091,0.95184016,0.9593805,0.9169146
+امروز هوا چطور است,فردا هوا چطور است,different_argument,weather_query,weather_query,0.48,True,False,True,0.8241879,0.95022446,0.8783928,0.82618195
+بیرون باران می بارد,فردا باران می بارد,different_argument,weather_query,weather_query,0.4583333333333333,True,False,True,0.7339059,0.96530867,0.80353117,0.8220639
+در تبریز ساعت چند است,در تهران ساعت چند است,different_argument,datetime_query,datetime_query,0.5714285714285714,True,True,False,0.6739627,0.9112314,0.9481052,0.7954952
+در تبریز ساعت چند است,در اصفهان ساعت چند است,different_argument,datetime_query,datetime_query,0.5,True,True,False,0.74652433,0.9058508,0.967798,0.74197245
+در تبریز ساعت چند است,در زنجان ساعت چند است,different_argument,datetime_query,datetime_query,0.5172413793103449,True,True,False,0.8809148,0.89858794,0.8550328,0.75968796
+در تبریز ساعت چند است,در اهواز ساعت چند است,different_argument,datetime_query,datetime_query,0.5714285714285714,True,True,False,0.76273793,0.8983214,0.885494,0.72961605
+در تبریز ساعت چند است,در مشهد ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.86150134,0.90248746,0.83462286,0.7181163
+در تبریز ساعت چند است,در اراک ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.88687503,0.8884884,0.85701287,0.7657381
+در تبریز ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.7719939,0.91459817,0.7006215,0.7807151
+در تبریز ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.8279844,0.9076917,0.84221125,0.71051466
+در تهران ساعت چند است,در اصفهان ساعت چند است,different_argument,datetime_query,datetime_query,0.6071428571428571,True,False,False,0.81728774,0.91759276,0.9766741,0.7443639
+در تهران ساعت چند است,در زنجان ساعت چند است,different_argument,datetime_query,datetime_query,0.6296296296296297,True,True,False,0.7320868,0.8921435,0.8066998,0.70880246
+در تهران ساعت چند است,در اهواز ساعت چند است,different_argument,datetime_query,datetime_query,0.5172413793103449,True,True,False,0.6120567,0.9155574,0.84219444,0.73885226
+در تهران ساعت چند است,در مشهد ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.5902643,0.9153919,0.8230065,0.755376
+در تهران ساعت چند است,در اراک ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.5822205,0.9077845,0.794841,0.7185645
+در تهران ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,False,False,0.5977002,0.9417085,0.6624953,0.83887357
+در تهران ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.5294502,0.9026525,0.8059266,0.7287879
+در آمریکا چه خبر است,در اصفهان چه خبر است,different_argument,news_query,news_query,0.4642857142857143,True,False,False,0.4457346,0.8733431,0.44475466,0.6856316
+در آمریکا چه خبر است,در سیاست چه خبر است,different_argument,news_query,news_query,0.5,True,True,False,0.5899028,0.9063987,0.6259023,0.77745867
+در آمریکا چه خبر است,در ایرلند چه خبر است,different_argument,news_query,news_query,0.4642857142857143,True,False,False,0.4581016,0.88536006,0.4877974,0.6649103
+در آمریکا چه خبر است,در تهران چه خبر است,different_intent,news_query,recommendation_events,0.4642857142857143,True,False,False,0.43799788,0.9057969,0.47745335,0.7884269
+در آمریکا چه خبر است,در ساری چه خبر است,different_intent,news_query,recommendation_events,0.48148148148148145,True,False,False,0.4107196,0.8599945,0.4751631,0.55970806
+الان در تهران ساعت چند است,الان در آبادان ساعت چند است,different_argument,datetime_query,datetime_query,0.65625,True,True,False,0.56293446,0.9294157,0.7936498,0.7521868
+الان در تهران ساعت چند است,الان در اصفهان ساعت چند است,different_argument,datetime_query,datetime_query,0.65625,True,False,False,0.84636533,0.93677217,0.97758377,0.792312
+الان در تهران ساعت چند است,الان در شیراز ساعت چند است,different_argument,datetime_query,datetime_query,0.6060606060606061,True,True,False,0.7246311,0.93379164,0.85706663,0.80165493
+الان در تهران ساعت چند است,الان در نیشابور ساعت چند است,different_argument,datetime_query,datetime_query,0.5714285714285714,True,True,False,0.5853261,0.92478454,0.76133615,0.76853085
+الان در تهران ساعت چند است,الان در ایران ساعت چند است,different_argument,datetime_query,datetime_query,0.7333333333333333,True,False,False,0.90070856,0.9650885,0.9658783,0.90723515
+جاروبرقی را شروع کن,هشدار را شروع کن,different_intent,iot_cleaning,alarm_set,0.2916666666666667,True,False,False,0.46467918,0.92448896,0.47000086,0.72145814
+جاروبرقی را شروع کن,لطفا جاروبرقی را روشن کن,same_meaning,iot_cleaning,iot_cleaning,0.4782608695652174,False,False,True,0.45520887,0.9429207,0.7274047,0.8991232
+جاروبرقی را شروع کن,لطفا قهوه را شروع کن,different_intent,iot_cleaning,iot_coffee,0.30434782608695654,True,False,False,0.46958867,0.89922893,0.30491725,0.7169606
+جاروبرقی را شروع کن,بازی را شروع کن,different_intent,iot_cleaning,play_game,0.36363636363636365,True,False,False,0.63658845,0.90782464,0.42966947,0.7573024
+جاروبرقی را شروع کن,پاسخ را شروع کن,different_intent,iot_cleaning,email_sendemail,0.30434782608695654,True,False,False,0.561373,0.9107747,0.43071312,0.705467
+جارو برقی را روشن کن,جارو برقی را شروع کن,same_meaning,iot_cleaning,iot_cleaning,0.5,False,False,True,0.87260956,0.97090375,0.9178549,0.937313
+جارو برقی را روشن کن,جارو برقی را فعال کن,same_meaning,iot_cleaning,iot_cleaning,0.5,False,True,True,0.8844973,0.9718052,0.9486059,0.9615294
+آهنگ های ماکان بند را پخش کن,آهنگ های ایوان بند را پخش کن,different_argument,play_music,play_music,0.6666666666666666,True,False,False,0.9116693,0.96821547,0.89213324,0.88470507
+هوا چطور است,سفارشم چطور است,different_intent,weather_query,takeaway_query,0.38095238095238093,True,True,False,0.17963363,0.8949851,0.2552882,0.6553095
+هوا چطور است,بیرون چطور است,same_meaning,weather_query,weather_query,0.4,True,False,False,0.53424877,0.9397609,0.83278567,0.8470534
+هوا چطور است,ترافیک چطور است,different_intent,weather_query,transport_traffic,0.38095238095238093,True,False,False,0.35101947,0.9242374,0.4510349,0.7832347
+آهنگ بارون,میشه آهنگ بزاری,different_argument,play_music,play_music,0.375,True,True,False,0.5081464,0.8646318,0.46816537,0.59124774
+نرم تر,روشن تر,different_intent,audio_volume_down,iot_hue_lightup,0.15384615384615385,False,True,True,0.686018,0.9166802,0.70963705,0.7946385
+می خواهم وضع هوای کرمان را بدانم,می خواهم وضع هوای امروز را بدانم,different_argument,weather_query,weather_query,0.6111111111111112,True,True,True,0.79669476,0.94407225,0.73701596,0.7807057
+فردا بارانی می شود,آیا بارانی می شود,different_argument,weather_query,weather_query,0.4375,True,False,True,0.7790526,0.9230797,0.8696004,0.8323624
+اول اردیبهشت چند شنبه است,شانزدهم اردیبهشت چند شنبه است,different_argument,datetime_query,datetime_query,0.6,True,True,True,0.86148703,0.954772,0.90518606,0.7548462
+آیا امروز دوشنبه است,آیا امروز آفتابی است,different_intent,datetime_query,weather_query,0.4482758620689655,True,False,False,0.4414891,0.9008328,0.54591846,0.7322203
+وضع هوای نوشهر چطور است,وضع هوای امروز چطور است,different_argument,weather_query,weather_query,0.5483870967741935,True,True,True,0.8627883,0.9105848,0.5890976,0.69143045
+وضع هوای نوشهر چطور است,وضع هوای تهران چطور است,different_argument,weather_query,weather_query,0.5483870967741935,True,True,False,0.55705535,0.90317607,0.72913754,0.6959472
+وضع هوای نوشهر چطور است,وضع هوای پایتخت چطور است,different_argument,weather_query,weather_query,0.53125,True,True,False,0.6931247,0.904104,0.6375171,0.6461387
+پریز هوشمند را خاموش کن,پریز هوشمند را را روشن کن,different_intent,iot_wemo_off,iot_wemo_on,0.5185185185185185,True,False,True,0.74101293,0.964702,0.80017513,0.87007654
+دوشاخه ی یک را روشن کن,دوشاخه‌ی مهسان را روشن کن,different_argument,iot_wemo_on,iot_wemo_on,0.5925925925925926,True,False,True,0.8532814,0.95051616,0.9157129,0.83179855
+هوای جمعه چطور است,هوای هفتم چطور است,different_argument,weather_query,weather_query,0.52,True,True,False,0.49101803,0.92339075,0.6260099,0.6293071
+هوای جمعه چطور است,هوای فردا چطور است,different_argument,weather_query,weather_query,0.52,True,False,True,0.7447255,0.92219484,0.81510866,0.7270466
+هوای جمعه چطور است,هوای اینجا چطور است,different_argument,weather_query,weather_query,0.5,True,False,False,0.6217929,0.9014802,0.77743435,0.7395731
+هوای جمعه چطور است,هوای اصفهان چطور است,different_argument,weather_query,weather_query,0.48148148148148145,True,False,False,0.34958255,0.9005305,0.59487134,0.6795792
+هوای جمعه چطور است,هوای امروز چطور است,different_argument,weather_query,weather_query,0.5,True,False,True,0.6875783,0.92478895,0.82730824,0.7867696
+هوای جمعه چطور است,هوای زاهدان چطور است,different_argument,weather_query,weather_query,0.48148148148148145,True,True,False,0.5276653,0.88423395,0.5986218,0.6307142
+هوای جمعه چطور است,هوای رفسنجان چطور است,different_argument,weather_query,weather_query,0.4642857142857143,True,True,False,0.4119141,0.8848174,0.6456251,0.6129283
+امروز چند شنبه است,ولنتاین چند شنبه است,different_argument,datetime_query,datetime_query,0.42857142857142855,True,True,True,0.64998084,0.9318677,0.7972953,0.7828779
+امروز چند شنبه است,دوازدهم چند شنبه است,different_argument,datetime_query,datetime_query,0.42857142857142855,True,True,True,0.86630344,0.93922526,0.88977623,0.7491257
+امروز باید ژاکت بپوشم,امروز باید شلوارک بپوشم,different_argument,weather_query,weather_query,0.5333333333333333,True,True,False,0.6914965,0.9680913,0.7021178,0.83827406
+امروز باید ژاکت بپوشم,آیا باید ژاکت بپوشم,different_argument,weather_query,weather_query,0.5555555555555556,True,False,True,0.79157037,0.92626244,0.8081701,0.871771
+در اخبار چه می گذرد,در جهان چه می گذرد,different_argument,news_query,news_query,0.48,True,False,False,0.519892,0.9223904,0.77071005,0.74236226
+در اخبار چه می گذرد,در اخبار چه داریم,same_meaning,news_query,news_query,0.48,False,True,False,0.91867363,0.9490655,0.94605017,0.8693586
+صدا را بلند کن,صدا را کمتر کن,different_intent,audio_volume_up,audio_volume_down,0.3333333333333333,False,True,True,0.7532176,0.92820525,0.3779239,0.80277836
+صدا را بلند کن,لطفا صدا را کم کن,different_intent,audio_volume_up,audio_volume_down,0.375,False,False,True,0.73350483,0.92602116,0.43010974,0.7981334
+صدا را بلند کن,صدا را زیاد کن,same_meaning,audio_volume_up,audio_volume_up,0.4117647058823529,False,False,True,0.9259749,0.95917857,0.88468415,0.9400254
+صدا را بلند کن,صدا را قطع کن,different_intent,audio_volume_up,audio_volume_mute,0.35294117647058826,True,True,False,0.82656825,0.9402528,0.45604295,0.8048539
+صدا را بلند کن,صدا را متوقف کن,different_intent,audio_volume_up,audio_volume_mute,0.3157894736842105,False,False,False,0.8085286,0.93569875,0.43111998,0.8318641
+قهوه ساز را روشن کن,لطفا قهوه جوش را روشن کن,different_argument,iot_coffee,iot_coffee,0.5454545454545454,True,True,False,0.83551264,0.9484564,0.8352668,0.8960883
+آهنگ عشق را پخش کن,آهنگ لیلا را پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.6206014,0.90566015,0.5767088,0.7664977
+آهنگ عشق را پخش کن,لطفا آهنگ فولک پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.61399084,0.8881067,0.60633016,0.742152
+آهنگ عشق را پخش کن,آهنگ بعدی را پخش کن,different_argument,play_music,play_music,0.5,True,False,False,0.582332,0.90229183,0.5839046,0.7508893
+آهنگ عشق را پخش کن,آهنگ تکنو پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.66276085,0.91081303,0.59751177,0.7390998
+آهنگ عشق را پخش کن,آهنگ من را پخش کن,different_argument,play_music,play_music,0.55,True,False,False,0.7484367,0.9367536,0.76783526,0.8203404
+آهنگ عشق را پخش کن,آهنگ قبلی را پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.5858644,0.90505743,0.52876,0.7284566
+آهنگ عشق را پخش کن,آهنگ ترس را پخش کن,different_argument,play_music,play_music,0.5238095238095238,True,False,False,0.64084184,0.9229205,0.5427742,0.76148677
+آهنگ عشق را پخش کن,آهنگ منتخب را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.67036,0.92824125,0.5714597,0.77720165
+آهنگ عشق را پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.64409655,0.9148918,0.5554468,0.7611853
+ساعت را به من بگو,هشدارهایم را به من بگو,different_intent,datetime_query,alarm_query,0.22727272727272727,True,True,False,0.36006612,0.88450646,0.35214466,0.7355235
+ساعت را به من بگو,دما را به من بگو,different_intent,datetime_query,weather_query,0.3125,True,True,False,0.57179785,0.88539654,0.51376486,0.74989796
+در اصفهان ساعت چند است,در زنجان ساعت چند است,different_argument,datetime_query,datetime_query,0.6071428571428571,True,True,False,0.84073186,0.8997675,0.8260761,0.7471466
+در اصفهان ساعت چند است,در اهواز ساعت چند است,different_argument,datetime_query,datetime_query,0.5517241379310345,True,True,False,0.7326864,0.9095982,0.8734737,0.7710147
+در اصفهان ساعت چند است,در مشهد ساعت چند است,different_argument,datetime_query,datetime_query,0.5172413793103449,True,True,False,0.7614164,0.9022151,0.8307952,0.7249832
+در اصفهان ساعت چند است,در اراک ساعت چند است,different_argument,datetime_query,datetime_query,0.5714285714285714,True,True,False,0.7212175,0.87670946,0.8126242,0.7462541
+در اصفهان ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,False,False,0.661019,0.912004,0.6640342,0.7705709
+در اصفهان ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.6234278,0.8865378,0.8153317,0.70319736
+آیا بیرون گرم است,آیا بیرون سرد است,different_argument,weather_query,weather_query,0.5652173913043478,True,True,False,0.73373544,0.97447515,0.7922175,0.8616309
+آهنگ مورد علاقه من را پخش کن,کتاب مورد علاقه من را پخش کن,different_intent,play_music,play_audiobook,0.625,True,False,False,0.52880865,0.9529795,0.54951304,0.84273005
+زنگ هشدار را برای نه صبح تنظیم کن,زنگ هشدار را برای پنج صبح تنظیم کن,different_argument,alarm_set,alarm_set,0.75,True,False,True,0.8591435,0.9663579,0.70266247,0.9058196
+زنگ هشدار را برای نه صبح تنظیم کن,زنگ هشدار را برای شش صبح تنظیم کن,different_argument,alarm_set,alarm_set,0.7714285714285715,True,False,True,0.88081676,0.9736253,0.77206206,0.9122999
+رنگ نور را عوض کن,رنگ لامپ ها را عوض کن,same_meaning,iot_hue_lightchange,iot_hue_lightchange,0.43478260869565216,False,False,False,0.86023986,0.9521883,0.9369765,0.93028194
+آیا فردا باران می بارد,آیا امشب باران می بارد,different_argument,weather_query,weather_query,0.5555555555555556,True,False,True,0.886281,0.96685976,0.9295608,0.84983665
+آیا فردا باران می بارد,آیا شنبه باران می بارد,different_argument,weather_query,weather_query,0.5555555555555556,True,False,True,0.85175526,0.94250816,0.9235483,0.82675195
+آیا فردا باران می بارد,آیا دوشنبه باران می بارد,different_argument,weather_query,weather_query,0.5172413793103449,True,False,True,0.85463023,0.94319224,0.94581145,0.7980735
+آیا فردا باران می بارد,آیا بعدا باران می بارد,different_argument,weather_query,weather_query,0.7083333333333334,True,True,True,0.8733031,0.9663319,0.9669298,0.85404974
+هشدار را شروع کن,لطفا قهوه را شروع کن,different_intent,alarm_set,iot_coffee,0.35,True,False,False,0.32599348,0.921053,0.33744222,0.6750791
+هشدار را شروع کن,بازی را شروع کن,different_intent,alarm_set,play_game,0.35,False,False,False,0.50294024,0.9386246,0.4522004,0.75074613
+هشدار را شروع کن,پاسخ را شروع کن,different_intent,alarm_set,email_sendemail,0.35,False,False,False,0.5537364,0.9463966,0.57400197,0.73136765
+آهنگ ابی در رادیو پخش کن,آهنگ عشق را در رادیو پخش کن,different_intent,play_music,play_radio,0.6666666666666666,True,False,False,0.80975586,0.9257776,0.7844036,0.7771046
+لطفا جاروبرقی را روشن کن,لامپ ها را روشن کن,different_intent,iot_cleaning,iot_hue_lightup,0.28,True,False,False,0.6599245,0.9216927,0.79130983,0.7735187
+لطفا جاروبرقی را روشن کن,wemo را روشن کن,different_intent,iot_cleaning,iot_wemo_on,0.30434782608695654,True,True,False,0.58291966,0.91237783,0.6023457,0.7219057
+لطفا جاروبرقی را روشن کن,تکرار را روشن کن,different_intent,iot_cleaning,music_settings,0.2916666666666667,True,False,False,0.42261714,0.9095845,0.43124008,0.70202565
+لطفا جاروبرقی را روشن کن,رادیو را روشن کن,different_intent,iot_cleaning,play_radio,0.2916666666666667,True,False,False,0.4919322,0.91887933,0.5406461,0.74909264
+لطفا جاروبرقی را روشن کن,رادیوکافه را روشن کن,different_intent,iot_cleaning,play_podcasts,0.25,True,False,False,0.5536517,0.9138394,0.5765064,0.7269254
+چراغ‌های اتاق را خاموش کن,چراغ های هال را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5925925925925926,True,False,True,0.8961001,0.9568294,0.8808422,0.89176786
+چراغ‌های اتاق را خاموش کن,چراغ های ناهارخوری را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.48484848484848486,True,False,True,0.8174171,0.955618,0.78434503,0.85146654
+چراغ‌های اتاق را خاموش کن,لطفا چراغ‌های حمام را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5714285714285714,True,True,True,0.70032394,0.9599685,0.68146086,0.8676654
+چراغ‌های اتاق را خاموش کن,لامپ اتاق را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.4642857142857143,False,False,False,0.9356004,0.9372132,0.96464777,0.9607314
+الان در آبادان ساعت چند است,الان در اصفهان ساعت چند است,different_argument,datetime_query,datetime_query,0.6363636363636364,True,True,False,0.67118514,0.93139863,0.81112564,0.7366004
+الان در آبادان ساعت چند است,الان در شیراز ساعت چند است,different_argument,datetime_query,datetime_query,0.5882352941176471,True,True,False,0.5744338,0.929354,0.82174504,0.72337574
+الان در آبادان ساعت چند است,الان در نیشابور ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.8461841,0.90991133,0.8896898,0.705999
+الان در آبادان ساعت چند است,الان در ایران ساعت چند است,different_argument,datetime_query,datetime_query,0.65625,True,True,False,0.70617867,0.9096735,0.8077424,0.74613965
+زمان فعلی در ایران,زمان فعلی در تهران,different_argument,datetime_query,datetime_query,0.6363636363636364,True,False,False,0.8366859,0.95490146,0.8799546,0.87845004
+آیا می توانی لامپ ها را کم کنی,آیا می توانی لامپ ها را روشن کنی لطفا,different_intent,iot_hue_lightdim,iot_hue_lightup,0.6774193548387096,False,False,True,0.848729,0.9519032,0.87684816,0.8555035
+آیا می توانی لامپ ها را کم کنی,سلام میتوانی لامپ ها را کم کنی,same_meaning,iot_hue_lightdim,iot_hue_lightdim,0.6666666666666666,False,False,False,0.85168946,0.96113014,0.9288055,0.909605
+منطقه زمانی را تنظیم کن,منطقه زمانی را تبدیل کن,same_meaning,datetime_convert,datetime_convert,0.5555555555555556,False,False,False,0.9150431,0.9659767,0.852785,0.93847024
+الان در اصفهان ساعت چند است,الان در شیراز ساعت چند است,different_argument,datetime_query,datetime_query,0.5882352941176471,True,True,False,0.68825114,0.93901694,0.88969904,0.79126835
+الان در اصفهان ساعت چند است,الان در نیشابور ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.63251793,0.9122247,0.7717533,0.77442974
+الان در اصفهان ساعت چند است,الان در ایران ساعت چند است,different_argument,datetime_query,datetime_query,0.7096774193548387,True,False,False,0.85184956,0.9222695,0.95355695,0.8204521
+صدا را کمتر کن,لطفا صدا را کم کن,same_meaning,audio_volume_down,audio_volume_down,0.5714285714285714,False,True,True,0.7074646,0.97416556,0.9231812,0.94830614
+صدا را کمتر کن,صدا را زیاد کن,different_intent,audio_volume_down,audio_volume_up,0.3333333333333333,False,True,True,0.7339541,0.92486846,0.40929526,0.8562646
+صدا را کمتر کن,صدا را قطع کن,different_intent,audio_volume_down,audio_volume_mute,0.35294117647058826,True,True,True,0.8475448,0.9624444,0.8627436,0.90402365
+صدا را کمتر کن,صدا را متوقف کن,different_intent,audio_volume_down,audio_volume_mute,0.3157894736842105,False,True,True,0.7902969,0.9532436,0.85842264,0.89260703
+قهوه آماده کن,لطفا قهوه را شروع کن,same_meaning,iot_coffee,iot_coffee,0.35,False,False,False,0.86214256,0.9195899,0.88532984,0.8376372
+قهوه آماده کن,قهوه را درست کن,same_meaning,iot_coffee,iot_coffee,0.35,False,False,False,0.97440577,0.94768214,0.98555267,0.932586
+چراغ‌ها را خاموش کن,لامپ را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.36363636363636365,False,False,False,0.9125587,0.9282557,0.95190084,0.92959255
+چراغ‌ها را خاموش کن,پریز را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.36363636363636365,True,True,False,0.7304845,0.9266126,0.8122101,0.7726463
+چراغ‌ها را خاموش کن,روشنایی را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.32,False,False,True,0.9627264,0.9614973,0.9780425,0.949231
+چراغ‌ها را خاموش کن,بلندگوها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.4166666666666667,False,True,False,0.81414104,0.9293171,0.64510864,0.8352804
+چراغ‌ها را خاموش کن,دوشاخه را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.3333333333333333,True,False,False,0.77181304,0.93260217,0.6978182,0.7995974
+چراغ‌ها را خاموش کن,صداها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.47619047619047616,False,False,False,0.654644,0.94040173,0.65810674,0.84204835
+چراغ‌ها را خاموش کن,سوکت ها را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.45454545454545453,False,False,False,0.84172463,0.9591946,0.86878043,0.8371188
+چراغ‌ها را خاموش کن,سوکت را لطفا خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.36363636363636365,True,False,False,0.6867883,0.92111504,0.7342553,0.80332994
+هوای این هفته چطور است,هوای بقیه هفته چطور است,different_argument,weather_query,weather_query,0.6206896551724138,False,True,False,0.94480807,0.97338384,0.940366,0.9081231
+هوای این هفته چطور است,هوای این هفته چطور بود,different_argument,weather_query,weather_query,0.7037037037037037,False,False,False,0.9852073,0.9877413,0.97189325,0.97251886
+تقدیر از شادمهر را لطفا پخش کن,لطفا ترس از شادمهر را پخش کن,different_argument,play_music,play_music,0.6296296296296297,True,True,False,0.7790147,0.9602331,0.712649,0.7695669
+بلندگوها را بیصدا کن,لطفا بلندگو را بیصدا کن,same_meaning,audio_volume_mute,audio_volume_mute,0.7,False,True,False,0.8684625,0.9697315,0.9111077,0.95950806
+بلندگوها را بیصدا کن,بلندگوها را خاموش کن,same_meaning,audio_volume_mute,audio_volume_mute,0.44,True,False,True,0.5955405,0.97144324,0.8131328,0.9570653
+بلندگوها را بیصدا کن,تنظیمات را بیصدا کن,same_meaning,audio_volume_mute,audio_volume_mute,0.2962962962962963,False,True,False,0.7299392,0.91411406,0.47060198,0.863923
+لطفا صدای بلندگوها را کمتر کن,صدای بلندگو را کمتر کن,same_meaning,audio_volume_down,audio_volume_down,0.75,False,True,False,0.84862757,0.974354,0.95600283,0.9606379
+لطفا صدای بلندگوها را کمتر کن,صدای بلندگوها رو قطع کن.,different_intent,audio_volume_down,audio_volume_mute,0.5925925925925926,True,True,True,0.72847754,0.95607173,0.8917457,0.90762514
+لطفا صدای بلندگوها را کمتر کن,صدای خودت را کمتر کن لطفا,same_meaning,audio_volume_down,audio_volume_down,0.42857142857142855,False,True,False,0.86245906,0.96037495,0.89438176,0.9203229
+الان قهوه درست کن,یک قهوه درست کن,same_meaning,iot_coffee,iot_coffee,0.5454545454545454,False,False,True,0.9394375,0.9428996,0.94310343,0.91740894
+لیست آهنگ های ابی را پخش کن,همه آهنگ های ابی را پخش کن,same_meaning,play_music,play_music,0.6206896551724138,False,False,True,0.8771616,0.9688047,0.8582353,0.9124186
+لیست آهنگ های ابی را پخش کن,لیست آهنگ های فعلی را پخش کن,different_argument,play_music,play_music,0.6896551724137931,True,False,False,0.83897316,0.9513186,0.7612362,0.7961091
+جاروبرقی رباتیک را روشن کن,لطفا جاروبرقی من را روشن کن,different_argument,iot_cleaning,iot_cleaning,0.5714285714285714,True,True,False,0.5264593,0.94868743,0.62250936,0.8546567
+جاروبرقی رباتیک را روشن کن,جاروبرقی roomba را روشن کن,different_argument,iot_cleaning,iot_cleaning,0.5,True,True,False,0.592379,0.9715352,0.6789123,0.8449121
+لامپ ها را روشن کن,wemo را روشن کن,different_intent,iot_hue_lightup,iot_wemo_on,0.3333333333333333,True,True,False,0.59629214,0.92002195,0.6312046,0.77171063
+لامپ ها را روشن کن,تکرار را روشن کن,different_intent,iot_hue_lightup,music_settings,0.3181818181818182,False,False,False,0.39038175,0.9236445,0.46642727,0.757519
+لامپ ها را روشن کن,لامپ ها را صورتی کن,different_intent,iot_hue_lightup,iot_hue_lightchange,0.4090909090909091,True,True,True,0.7570468,0.96955955,0.83810586,0.8132677
+لامپ ها را روشن کن,رادیو را روشن کن,different_intent,iot_hue_lightup,play_radio,0.3181818181818182,True,False,False,0.41398188,0.9240304,0.4867335,0.78534746
+لامپ ها را روشن کن,رادیوکافه را روشن کن,different_intent,iot_hue_lightup,play_podcasts,0.2692307692307692,False,False,False,0.46494046,0.9081145,0.50641364,0.7288455
+تنظیمات هشدار,زنگ هشدار,different_intent,alarm_query,alarm_set,0.2631578947368421,False,True,False,0.5222549,0.9242704,0.7046609,0.70783126
+لطفا هشدار من را حذف کن,هشدار فردا را حذف کن,different_argument,alarm_remove,alarm_remove,0.5454545454545454,True,False,True,0.7495017,0.9399822,0.72488844,0.84926057
+لطفا هشدار من را حذف کن,لیست من را حذف کن,different_intent,alarm_remove,lists_remove,0.4090909090909091,False,False,False,0.5551146,0.9417609,0.6238728,0.78283495
+روشنایی لامپ ها را زیاد کن,روشنایی لامپ ها را کم کن,different_intent,iot_hue_lightup,iot_hue_lightdim,0.6296296296296297,False,False,True,0.87662995,0.9484452,0.7606617,0.8831952
+میتونی به من بگی در اصفهان ساعت چند است,بگو به من در تهران ساعت چند است,different_argument,datetime_query,datetime_query,0.6764705882352942,True,False,False,0.8140242,0.89827204,0.95994306,0.78241
+میتونی به من بگی در اصفهان ساعت چند است,به من بگو در ایران ساعت چند است,different_argument,datetime_query,datetime_query,0.7272727272727273,True,False,False,0.80133224,0.88996637,0.92871153,0.8157115
+میتونی به من بگی در اصفهان ساعت چند است,لطفا به من در آبادان ساعت چند است,different_argument,datetime_query,datetime_query,0.6571428571428571,True,True,False,0.78063,0.91744703,0.823674,0.75026274
+چراغ های هال را خاموش کن,چراغ های ناهارخوری را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5,True,False,False,0.84923947,0.9537113,0.84613883,0.8278973
+چراغ های هال را خاموش کن,لطفا چراغ‌های حمام را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5925925925925926,True,True,False,0.70928866,0.94446146,0.709646,0.8207723
+میشه بگید امروز چندم است,سیری امروز چندم است,same_meaning,datetime_query,datetime_query,0.5384615384615384,False,True,False,0.8306493,0.91177845,0.75162673,0.7422466
+صدای بلندگو را کمتر کن,لطفا صدای بلندگو رو کم کن.,same_meaning,audio_volume_down,audio_volume_down,0.7272727272727273,False,True,True,0.7960537,0.95966995,0.9558818,0.9620123
+صدای بلندگو را کمتر کن,صدای خودت را کمتر کن لطفا,same_meaning,audio_volume_down,audio_volume_down,0.46153846153846156,False,True,False,0.80591226,0.94399947,0.8434807,0.91208494
+صدای بلندگو را کمتر کن,لطفا صدای بلندگو رو قطع کن,different_intent,audio_volume_down,audio_volume_mute,0.56,True,True,True,0.7252761,0.9559949,0.91581696,0.92730284
+بیرون چقدر گرم است,اصفهان چقدر گرم است,different_argument,weather_query,weather_query,0.5,True,False,False,0.6606466,0.8967451,0.71200216,0.74108243
+من دوست دارم چند تا آهنگ کانتری گوش بدم,من دوست دارم چند تا آهنگ رپ گوش بدم,different_argument,play_music,play_music,0.7272727272727273,True,True,False,0.82727873,0.9476758,0.74910414,0.8193635
+الان در شیراز ساعت چند است,الان در نیشابور ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.6272374,0.9252941,0.783648,0.7850307
+الان در شیراز ساعت چند است,الان در ایران ساعت چند است,different_argument,datetime_query,datetime_query,0.65625,True,True,False,0.70413136,0.91108906,0.841306,0.823671
+شوخی کن,لطفا کم کن,different_intent,general_joke,iot_wemo_off,0.16666666666666666,True,True,True,0.49041635,0.912798,0.4907856,0.65616065
+شوخی کن,خاموش کن,different_intent,general_joke,iot_wemo_off,0.13333333333333333,True,True,True,0.37845367,0.91384506,0.4359858,0.63792866
+شوخی کن,لغو کن,different_intent,general_joke,calendar_remove,0.15384615384615385,True,True,False,0.50000244,0.8941843,0.46756634,0.61747545
+شوخی کن,یادآوری کن,different_intent,general_joke,calendar_set,0.1875,True,True,False,0.6296339,0.9240175,0.48989666,0.6764242
+شوخی کن,پخش کن,different_intent,general_joke,play_radio,0.15384615384615385,True,True,False,0.58206844,0.9087641,0.63045144,0.5996165
+شوخی کن,متوقف کن,different_intent,general_joke,play_audiobook,0.13333333333333333,True,True,False,0.48286116,0.8976898,0.482987,0.6208653
+شوخی کن,بازی کن,different_intent,general_joke,play_game,0.23076923076923078,True,True,False,0.55188656,0.8797733,0.4706933,0.74643004
+شوخی کن,جایگزین کن,different_intent,general_joke,lists_remove,0.11764705882352941,True,True,False,0.28961095,0.90844476,0.25226557,0.62808836
+الان نیویورک ساعت چنده,الان تهران ساعت چنده,different_argument,datetime_query,datetime_query,0.4827586206896552,True,True,False,0.40594634,0.94336486,0.5727358,0.85522443
+اخبار امروز جهان چیست,اخبار امروز ایران چیست,different_argument,news_query,news_query,0.6666666666666666,True,False,False,0.59393036,0.9501655,0.7068193,0.7974072
+ساعت فعلی در تهران را به من بگو,ساعت فعلی در شیراز را به من بگو,different_argument,datetime_query,datetime_query,0.5625,True,True,False,0.7355393,0.929592,0.87777114,0.8380992
+وضع هوای امروز چطور است,وضع هوای تهران چطور است,different_argument,weather_query,weather_query,0.5483870967741935,True,False,True,0.63836783,0.9492609,0.58524287,0.8362795
+وضع هوای امروز چطور است,وضع هوای پایتخت چطور است,different_argument,weather_query,weather_query,0.53125,True,True,True,0.7563693,0.94294536,0.6871752,0.81761897
+لطفا صدای بلندگو رو کم کن.,لطفا صدای بلندگو رو قطع کن,different_intent,audio_volume_down,audio_volume_mute,0.6086956521739131,True,True,True,0.9786694,0.97118056,0.9779262,0.954527
+لطفا لامپ اتاق پسرم را خاموش کن,لامپ اتاق کوچک را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.6,True,True,False,0.7603401,0.9547605,0.8165505,0.85731906
+لطفا لامپ اتاق پسرم را خاموش کن,لامپ اتاق هال را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.6206896551724138,True,True,False,0.77038133,0.9470844,0.8411735,0.82295793
+آیا عطاویچ بیرون غذا تحویل می دهد,آیا عطاویچ سفارش غذا تحویل می‌دهد,same_meaning,takeaway_query,takeaway_query,0.65,True,False,False,0.85508513,0.9727901,0.9197749,0.95525295
+نور قرمز لطفا,نور بیشتر لطفا,different_intent,iot_hue_lightchange,iot_hue_lightup,0.26666666666666666,True,True,True,0.7873521,0.9631481,0.7124834,0.83409965
+زنگ هشدار را خاموش کن,زنگ هشدار را کنسل کن,same_meaning,alarm_remove,alarm_remove,0.5,True,True,True,0.9375806,0.9722729,0.97518355,0.9247869
+زنگ هشدار را خاموش کن,زنگ هشدار را درست کن,different_intent,alarm_remove,alarm_set,0.48,True,False,True,0.8311216,0.9523307,0.8164619,0.85705554
+زنگ هشدار را خاموش کن,زنگ هشدار را حذف کن,same_meaning,alarm_remove,alarm_remove,0.5,True,False,True,0.92931086,0.96710855,0.93364984,0.94978404
+آیا این هفته برف می بارد,آیا این هفته اصلا باران می بارد,different_argument,weather_query,weather_query,0.6896551724137931,True,False,False,0.66981435,0.9621969,0.780311,0.84383273
+موزیک پخش کن,ابی پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,False,False,0.51718175,0.94452244,0.5708657,0.6656437
+موزیک پخش کن,رپ پخش کن,different_argument,play_music,play_music,0.35294117647058826,True,True,False,0.5478724,0.95251906,0.65152824,0.75623727
+موزیک پخش کن,ترس را پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,False,False,0.27220932,0.917703,0.22021131,0.5641111
+موزیک پخش کن,پاپ پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,True,False,0.51452804,0.9550571,0.7072159,0.73986983
+موزیک پخش کن,نفرین را پخش کن,same_meaning,play_music,play_music,0.3,True,True,False,0.39655805,0.92526436,0.35736275,0.60363436
+موزیک پخش کن,آهنگ ها را پخش کن,same_meaning,play_music,play_music,0.2857142857142857,False,False,False,0.79954374,0.94028604,0.86633444,0.82927537
+موزیک پخش کن,آهنگ پخش کن,same_meaning,play_music,play_music,0.3157894736842105,False,False,False,0.88539135,0.96384084,0.85472345,0.90369666
+موزیک پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.3,False,False,False,0.4878744,0.94046426,0.48631215,0.7032843
+موزیک پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.35294117647058826,True,False,False,0.51633483,0.9378276,0.48706535,0.70602787
+موزیک پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.3157894736842105,False,False,False,0.36488003,0.92714703,0.5088558,0.69600344
+موزیک پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.4,True,False,False,0.7459421,0.9306174,0.5783862,0.63512975
+wemo را روشن کن,تکرار را روشن کن,different_intent,iot_wemo_on,music_settings,0.35,True,True,False,0.3496447,0.9213981,0.41160107,0.6672964
+wemo را روشن کن,رادیو را روشن کن,different_intent,iot_wemo_on,play_radio,0.35,True,True,False,0.4910331,0.91318965,0.44866818,0.76122284
+wemo را روشن کن,رادیوکافه را روشن کن,different_intent,iot_wemo_on,play_podcasts,0.2916666666666667,True,True,False,0.5386175,0.8912641,0.50033087,0.7124517
+پیش بینی وضع هوای این هفته را بده لطفا,پیش‌بینی وضع هوای این هفته چطوره,same_meaning,weather_query,weather_query,0.7297297297297297,False,False,False,0.9419867,0.9764874,0.96683806,0.9021058
+جارو برقی را شروع کن,جارو برقی را فعال کن,same_meaning,iot_cleaning,iot_cleaning,0.5,False,True,False,0.8810451,0.97467184,0.94648033,0.9373312
+لطفا صدا را کم کن,لطفا روشنایی را کم کن,different_intent,audio_volume_down,iot_hue_lightdim,0.2631578947368421,False,False,True,0.7725963,0.9686408,0.712248,0.8495461
+لطفا صدا را کم کن,صدا را زیاد کن,different_intent,audio_volume_down,audio_volume_up,0.375,False,False,True,0.6783503,0.93075055,0.44834074,0.8274827
+لطفا صدا را کم کن,صدا را قطع کن,different_intent,audio_volume_down,audio_volume_mute,0.4,True,True,True,0.81357694,0.95210004,0.91717446,0.9020244
+لطفا صدا را کم کن,صدا را متوقف کن,different_intent,audio_volume_down,audio_volume_mute,0.35294117647058826,False,False,True,0.74573946,0.94126964,0.91260254,0.8912835
+چه موزیکی در حال پخش است,چه اهنگی در حال پخش است,same_meaning,music_query,music_query,0.5806451612903226,False,True,False,0.59317017,0.94056284,0.8451648,0.9197774
+تمام لامپ ها خاموش کن,آلی لامپ ها را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5769230769230769,False,True,False,0.87760735,0.9597835,0.94444627,0.8750093
+تمام لامپ ها خاموش کن,علی لطفا لامپ ها را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5769230769230769,True,False,False,0.90930605,0.94281745,0.74931896,0.8226925
+آخرین اخبار تروریسم,آخرین اخبار ناحیه,different_argument,news_query,news_query,0.46153846153846156,True,True,False,0.42839843,0.89452153,0.5858178,0.6591815
+آخرین اخبار تروریسم,آخرین اخبار چیست,different_argument,news_query,news_query,0.48,False,False,False,0.55547905,0.9091192,0.59214,0.60076594
+ابی پخش کن,رپ پخش کن,different_argument,play_music,play_music,0.4,True,True,False,0.6311309,0.94759285,0.56266105,0.6804184
+ابی پخش کن,ترس را پخش کن,different_argument,play_music,play_music,0.375,True,False,False,0.6063505,0.9172047,0.4803425,0.5205469
+ابی پخش کن,پاپ پخش کن,different_argument,play_music,play_music,0.375,True,True,False,0.7270614,0.95872086,0.686868,0.68861294
+ابی پخش کن,نفرین را پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,True,False,0.8019418,0.925884,0.6951262,0.5555345
+ابی پخش کن,میتونی لطفا ابی پخش کنی,same_meaning,play_music,play_music,0.7692307692307693,False,False,False,0.78890973,0.9238506,0.8229585,0.74471676
+ابی پخش کن,آهنگ ها را پخش کن,different_argument,play_music,play_music,0.3157894736842105,True,False,False,0.47053343,0.90754294,0.5974657,0.59602857
+ابی پخش کن,آهنگ پخش کن,different_argument,play_music,play_music,0.35294117647058826,True,False,False,0.55256927,0.9381396,0.71643436,0.69662356
+ابی پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.3333333333333333,True,False,False,0.78296316,0.9386684,0.8910891,0.5985329
+ابی پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.4,True,False,False,0.94527364,0.9442922,0.7974527,0.6250707
+ابی پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.4375,True,False,False,0.6522471,0.919343,0.7012193,0.6060302
+ابی پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.3,True,False,False,0.68825555,0.91260505,0.6924651,0.5076822
+اهنگ بعدی,هشدار بعدی,different_intent,play_music,alarm_query,0.23529411764705882,False,False,False,0.66653454,0.927936,0.6464437,0.674036
+لطفا روشنایی را کم کن,روشنایی را بیشتر کن,different_intent,iot_hue_lightdim,iot_hue_lightup,0.47619047619047616,False,False,True,0.7296905,0.9372459,0.67218477,0.8620124
+لطفا روشنایی را کم کن,روشنایی را خاموش کن,different_intent,iot_hue_lightdim,iot_hue_lightoff,0.47619047619047616,True,False,True,0.80240446,0.95960987,0.90522933,0.89725965
+لطفا روشنایی را کم کن,روشنایی را زیاد کن,different_intent,iot_hue_lightdim,iot_hue_lightup,0.5,False,False,True,0.7408856,0.9318687,0.6858752,0.8632257
+لطفا روشنایی را کم کن,لطفا روشنایی را طبیعی کن,different_intent,iot_hue_lightdim,iot_hue_lightchange,0.55,False,False,True,0.86906,0.961095,0.8563682,0.88918364
+چراغ های ناهارخوری را خاموش کن,لطفا چراغ‌های حمام را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.48484848484848486,True,True,False,0.68528867,0.9512663,0.67676276,0.79977006
+در اصفهان چه خبر است,در سیاست چه خبر است,different_argument,news_query,news_query,0.52,True,True,False,0.30784774,0.8706689,0.4318073,0.7042752
+در اصفهان چه خبر است,در ایرلند چه خبر است,different_argument,news_query,news_query,0.48148148148148145,True,False,False,0.25711298,0.84588134,0.4508313,0.61691976
+در اصفهان چه خبر است,در تهران چه خبر است,different_intent,news_query,recommendation_events,0.6,True,False,False,0.78120923,0.9122867,0.95129716,0.71267545
+در اصفهان چه خبر است,در ساری چه خبر است,different_intent,news_query,recommendation_events,0.5,True,False,False,0.5812632,0.8925739,0.7414452,0.57872176
+حالا گزارش وضع هوا,گزارش وضع ترافیک,different_intent,weather_query,transport_traffic,0.47619047619047616,True,False,False,0.4227208,0.916991,0.44208294,0.73077
+آهنگ لیلا را پخش کن,لطفا آهنگ فولک پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.56687856,0.9097399,0.49864498,0.73941517
+آهنگ لیلا را پخش کن,آهنگ بعدی را پخش کن,same_meaning,play_music,play_music,0.4782608695652174,True,True,False,0.5475352,0.90941703,0.50231946,0.74856496
+آهنگ لیلا را پخش کن,آهنگ تکنو پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.6035242,0.91471326,0.49143374,0.70833814
+آهنگ لیلا را پخش کن,آهنگ من را پخش کن,same_meaning,play_music,play_music,0.5238095238095238,True,True,False,0.6398263,0.91180134,0.58362913,0.78486675
+آهنگ لیلا را پخش کن,آهنگ قبلی را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.551916,0.909855,0.47650066,0.73747283
+آهنگ لیلا را پخش کن,آهنگ ترس را پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.5390561,0.9012506,0.38912857,0.72212183
+آهنگ لیلا را پخش کن,آهنگ منتخب را پخش کن,same_meaning,play_music,play_music,0.4583333333333333,True,True,False,0.5847408,0.9226601,0.4813171,0.76810694
+آهنگ لیلا را پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.4583333333333333,True,True,False,0.6267359,0.91010857,0.445221,0.7602649
+خانه را تمیز کن,زمین را تمیز کن,different_argument,iot_cleaning,iot_cleaning,0.3684210526315789,True,True,False,0.76448274,0.93484515,0.8361944,0.8432132
+لامپ را خاموش کن,پریز را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.4,True,True,False,0.7376514,0.93393195,0.78990674,0.7958286
+لامپ را خاموش کن,روشنایی را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.34782608695652173,False,False,True,0.9277239,0.956716,0.9764297,0.94889694
+لامپ را خاموش کن,بلندگوها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.3333333333333333,False,True,False,0.79493964,0.92930156,0.58403355,0.80323035
+لامپ را خاموش کن,دوشاخه را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.36363636363636365,True,False,False,0.7825065,0.9399992,0.6561674,0.7994388
+لامپ را خاموش کن,صداها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.38095238095238093,False,False,False,0.58198184,0.9354532,0.5895874,0.7946769
+لامپ را خاموش کن,سوکت ها را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.36363636363636365,False,False,False,0.7513967,0.91830105,0.8129072,0.8019311
+لامپ را خاموش کن,سوکت را لطفا خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.4,True,False,False,0.6296172,0.9290739,0.70670956,0.79386747
+لطفا خاموش شو,خاموش کن,different_intent,audio_volume_mute,iot_wemo_off,0.5,False,True,False,0.8652938,0.9136002,0.89744496,0.8526431
+لطفا خاموش شو,هلیکوپتر شو,different_intent,audio_volume_mute,general_quirky,0.10526315789473684,True,False,True,0.45836234,0.8934555,0.28209376,0.4328554
+رپ پخش کن,ترس را پخش کن,different_argument,play_music,play_music,0.4,True,True,False,0.39763412,0.92469907,0.26719975,0.5732107
+رپ پخش کن,پاپ پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.56221807,0.9698384,0.65301615,0.7816963
+رپ پخش کن,نفرین را پخش کن,different_argument,play_music,play_music,0.35294117647058826,True,True,False,0.63867104,0.9222486,0.41054672,0.6096833
+رپ پخش کن,آهنگ ها را پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,True,False,0.52993274,0.9169476,0.642537,0.6644274
+رپ پخش کن,آهنگ پخش کن,different_argument,play_music,play_music,0.375,True,True,False,0.6299577,0.95031136,0.69627035,0.75119317
+رپ پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.35294117647058826,True,True,False,0.622556,0.93506587,0.46825695,0.6511909
+رپ پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.42857142857142855,True,True,False,0.6759553,0.9450821,0.5046104,0.6288975
+رپ پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.375,True,True,False,0.45142585,0.9163199,0.40679127,0.6130304
+رپ پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.3157894736842105,True,True,False,0.5696025,0.9128682,0.44837117,0.5522857
+ترس را پخش کن,پاپ پخش کن,different_argument,play_music,play_music,0.375,True,True,False,0.4602614,0.92665046,0.30587307,0.50889003
+ترس را پخش کن,نفرین را پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,True,False,0.60920906,0.94316936,0.6520148,0.77311695
+ترس را پخش کن,آهنگ ها را پخش کن,different_argument,play_music,play_music,0.3157894736842105,True,False,False,0.30396518,0.91363716,0.2703543,0.6707865
+ترس را پخش کن,آهنگ پخش کن,different_argument,play_music,play_music,0.35294117647058826,True,False,False,0.32990563,0.91522145,0.35506994,0.64768434
+ترس را پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.4117647058823529,True,False,False,0.49543458,0.9184047,0.4173494,0.5093987
+ترس را پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.4,True,False,False,0.64235055,0.938327,0.38871264,0.71506953
+ترس را پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.35294117647058826,True,False,False,0.42288008,0.91777,0.3123154,0.6915478
+ترس را پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.3,True,False,False,0.4184997,0.91001785,0.32650262,0.6480496
+روشنایی آشپزخانه را کم کن,روشنایی لامپ ها را کم کن,different_argument,iot_hue_lightdim,iot_hue_lightdim,0.41935483870967744,True,True,False,0.78958476,0.916328,0.72795826,0.8607572
+نور را زیاد کن,صدا را زیاد کن,different_intent,iot_hue_lightup,audio_volume_up,0.4117647058823529,False,False,False,0.37254542,0.9550129,0.54754424,0.79356146
+نور را زیاد کن,نور رو بیشتر کن,same_meaning,iot_hue_lightup,iot_hue_lightup,0.3157894736842105,False,False,True,0.9672699,0.92736757,0.96045023,0.9816356
+نور را زیاد کن,روشنایی را زیاد کن,same_meaning,iot_hue_lightup,iot_hue_lightup,0.3333333333333333,False,False,True,0.9765624,0.98185724,0.9776482,0.9671202
+بعدی عاشقانه را پخش کن,بعدی آزادی را پخش کن,different_argument,play_music,play_music,0.4230769230769231,True,True,False,0.49204004,0.9540405,0.44577563,0.79783404
+بعدی عاشقانه را پخش کن,آهنگ های عاشقانه پخش کن,different_argument,play_music,play_music,0.5357142857142857,False,False,False,0.62969184,0.93798864,0.6978523,0.7766117
+بگو به من در تهران ساعت چند است,به من بگو در ایران ساعت چند است,different_argument,datetime_query,datetime_query,0.75,True,False,False,0.91369337,0.96201444,0.9485554,0.9044305
+بگو به من در تهران ساعت چند است,لطفا به من در آبادان ساعت چند است,different_argument,datetime_query,datetime_query,0.6764705882352942,True,True,False,0.64354306,0.90196085,0.7891251,0.76395416
+پاپ پخش کن,نفرین را پخش کن,different_argument,play_music,play_music,0.3333333333333333,True,True,False,0.64178383,0.9270421,0.40369433,0.56995666
+پاپ پخش کن,آهنگ ها را پخش کن,different_argument,play_music,play_music,0.3157894736842105,True,True,False,0.5300468,0.92291903,0.7285385,0.626364
+پاپ پخش کن,آهنگ پخش کن,different_argument,play_music,play_music,0.35294117647058826,True,True,False,0.5413195,0.9446795,0.7279408,0.72096723
+پاپ پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.3333333333333333,True,True,False,0.6435964,0.94653744,0.5971898,0.6362963
+پاپ پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.4,True,True,False,0.71594983,0.9511118,0.5325734,0.62680876
+پاپ پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.35294117647058826,True,True,False,0.5199959,0.9292712,0.50339097,0.5956782
+پاپ پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.3,True,True,False,0.6312209,0.9207375,0.5648305,0.50447416
+لطفا حالت را تنظیم کن,یادآور تنظیم کن,different_intent,iot_hue_lightchange,calendar_set,0.36363636363636365,True,False,False,0.649418,0.914726,0.5263995,0.67860025
+لطفا حالت را تنظیم کن,لیست تنظیم کن,different_intent,iot_hue_lightchange,lists_createoradd,0.47368421052631576,False,False,False,0.44914594,0.9270455,0.47772884,0.65544534
+لامپ ها را به آبی عوض کن,لامپ ها را به وسط عوض کن,different_intent,iot_hue_lightchange,iot_hue_lightoff,0.6153846153846154,True,False,False,0.82397175,0.95900536,0.78044575,0.8686378
+وضع هوای کرج را بگو الهه,وضع هوای کرج چطوراست,same_meaning,weather_query,weather_query,0.5,False,True,False,0.3562872,0.95697224,0.785253,0.86207235
+وضع هوای دوشنبه,وضع هوای این لحظه,different_argument,weather_query,weather_query,0.45,True,False,False,0.4388495,0.88377094,0.75266045,0.73721665
+اهنگ را تکرار کن,اهنگ را شناسایی کن,different_intent,music_settings,music_query,0.30434782608695654,False,True,False,0.42043924,0.91601026,0.5614397,0.7863221
+زنگ هشدار من را خاموش کن,لطفا زنگ هشدار من را تنظیم کن,different_intent,alarm_remove,alarm_set,0.5172413793103449,True,False,True,0.80948925,0.9465996,0.88881266,0.872571
+حالت سکوت,حالت شبانه,different_intent,audio_volume_mute,iot_hue_lightdim,0.3125,True,True,False,0.5665443,0.90467286,0.45020258,0.6749078
+حالت سکوت,زمان سکوت,same_meaning,audio_volume_mute,audio_volume_mute,0.25,False,False,False,0.87495625,0.93615055,0.8876728,0.85384554
+هوای تهران,هوای فریدونکنار,different_argument,weather_query,weather_query,0.22727272727272727,True,False,False,0.42339522,0.89667255,0.56575936,0.6224524
+هوای تهران,هوای فعلی,different_argument,weather_query,weather_query,0.3125,True,False,False,0.5066004,0.9074103,0.6368245,0.7294314
+هوای فریدونکنار,هوای فعلی,different_argument,weather_query,weather_query,0.3,False,False,False,0.6165515,0.91039145,0.41134548,0.58383524
+نوازش ابی را پخش کن,آهنگ های ابی را پخش کن,different_argument,play_music,play_music,0.38461538461538464,True,True,False,0.5802338,0.9509324,0.78599787,0.85042495
+نوازش ابی را پخش کن,لطفا نوازش تتلو را پخش کن,different_argument,play_music,play_music,0.5217391304347826,True,True,False,0.6761675,0.94015706,0.83708465,0.8194127
+لامپ آشپزخانه را خاموش کن,لامپ ایوان را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.43333333333333335,True,True,False,0.74625534,0.9225577,0.7007389,0.8169018
+لامپ آشپزخانه را خاموش کن,لطفا لامپ حمام را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.4482758620689655,True,True,False,0.7231065,0.9338782,0.6311869,0.8360652
+لامپ آشپزخانه را خاموش کن,لامپ اتاق را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.4482758620689655,True,True,True,0.8353778,0.9639524,0.7770889,0.86858493
+آهنگ ایوان بند پخش کن,آهنگ های ایوان بند را پخش کن,same_meaning,play_music,play_music,0.7407407407407407,False,False,False,0.8583578,0.96722484,0.8769262,0.88528633
+اخبار امروز چیست,برنامه امروز چیست,different_intent,news_query,calendar_query,0.4,False,False,False,0.74079394,0.9210408,0.7352257,0.7369872
+شدت روشنایی را کم کن,شدت نور را کم کن,same_meaning,iot_hue_lightdim,iot_hue_lightdim,0.391304347826087,False,False,True,0.9565593,0.9856037,0.98925024,0.97167414
+هوای هفتم چطور است,هوای فردا چطور است,different_argument,weather_query,weather_query,0.52,True,True,True,0.62374246,0.9040102,0.62184113,0.6035527
+هوای هفتم چطور است,هوای اینجا چطور است,different_argument,weather_query,weather_query,0.5,True,True,False,0.7486684,0.9094275,0.7386296,0.6992949
+هوای هفتم چطور است,هوای اصفهان چطور است,different_argument,weather_query,weather_query,0.48148148148148145,True,True,False,0.50059986,0.90038145,0.5604007,0.6269342
+هوای هفتم چطور است,هوای امروز چطور است,different_argument,weather_query,weather_query,0.5,True,True,True,0.6734223,0.9113904,0.66478693,0.6651321
+هوای هفتم چطور است,هوای زاهدان چطور است,different_argument,weather_query,weather_query,0.48148148148148145,True,True,False,0.6288766,0.88529015,0.64442164,0.57570845
+هوای هفتم چطور است,هوای رفسنجان چطور است,different_argument,weather_query,weather_query,0.4642857142857143,True,True,False,0.7059191,0.88983786,0.69362915,0.58440053
+هوای فردا چطور است,هوای اینجا چطور است,different_argument,weather_query,weather_query,0.56,True,False,True,0.75075734,0.91318154,0.7458945,0.7373644
+هوای فردا چطور است,هوای اصفهان چطور است,different_argument,weather_query,weather_query,0.48148148148148145,True,False,True,0.4496634,0.89762855,0.51933587,0.62270224
+هوای فردا چطور است,هوای امروز چطور است,different_argument,weather_query,weather_query,0.5,True,False,True,0.8675388,0.9479753,0.87794185,0.8133687
+هوای فردا چطور است,هوای زاهدان چطور است,different_argument,weather_query,weather_query,0.48148148148148145,True,True,True,0.65549314,0.88555634,0.56868273,0.5837451
+هوای فردا چطور است,هوای رفسنجان چطور است,different_argument,weather_query,weather_query,0.4642857142857143,True,True,True,0.48588133,0.88867533,0.5913103,0.61896455
+لطفا بلندگو را بیصدا کن,تنظیمات را بیصدا کن,same_meaning,audio_volume_mute,audio_volume_mute,0.32,False,True,False,0.6269368,0.90296346,0.42827058,0.83450073
+لطفا بلندگو را بیصدا کن,بلندگو را تعریف کن,different_intent,audio_volume_mute,qa_definition,0.391304347826087,False,False,False,0.70750755,0.9343257,0.81113106,0.76680124
+صدا را زیاد کن,صدا را قطع کن,different_intent,audio_volume_up,audio_volume_mute,0.35294117647058826,True,True,True,0.7339559,0.92194635,0.43966484,0.8018657
+صدا را زیاد کن,روشنایی را زیاد کن,different_intent,audio_volume_up,iot_hue_lightup,0.3333333333333333,False,False,True,0.3689723,0.95745504,0.4993208,0.80401534
+صدا را زیاد کن,صدا را متوقف کن,different_intent,audio_volume_up,audio_volume_mute,0.3157894736842105,False,False,True,0.7416482,0.917596,0.40400672,0.8224262
+این اهنگ چیست,ان اهنگ چیست,same_meaning,music_query,music_query,0.6875,True,False,False,0.936264,0.95061994,0.9435413,0.7547201
+این اهنگ چیست,این چیز چیست,different_intent,music_query,qa_definition,0.4444444444444444,False,False,False,0.95898795,0.92323375,0.7418742,0.75464916
+اطلاعات آهنگ,اسم آهنگ,same_meaning,music_query,music_query,0.29411764705882354,False,False,False,0.9044274,0.8992055,0.79348236,0.78405774
+اطلاعات آهنگ,اطلاعات آسیا,different_intent,music_query,qa_factoid,0.5294117647058824,True,True,False,0.21432528,0.8817557,0.18794107,0.5911732
+اطلاعات آهنگ,اطلاعات اجتماعی,different_intent,music_query,social_query,0.38095238095238093,False,False,False,0.22631091,0.8883666,0.18751475,0.6735866
+آخرین اخبار را به من بده,آخرین آپدیت ها را به من بده,same_meaning,news_query,news_query,0.4838709677419355,True,True,False,0.64761496,0.92437726,0.7902521,0.88522375
+آهنگ های ابی را پخش کن,آهنگ های مهمانی پخش کن,different_argument,play_music,play_music,0.5769230769230769,True,False,False,0.7196543,0.9494036,0.73724484,0.62884694
+آهنگ های ابی را پخش کن,آهنگ های عاشقانه پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.73714197,0.94811815,0.6870842,0.6827521
+آهنگ های ابی را پخش کن,آهنگ های کلاسیک پخش کن,different_argument,play_music,play_music,0.5185185185185185,True,False,False,0.6593777,0.9403222,0.53617704,0.66724855
+نور رو بیشتر کن,روشنایی را بیشتر کن,same_meaning,iot_hue_lightup,iot_hue_lightup,0.36363636363636365,False,False,True,0.97164196,0.94239396,0.9629226,0.95399094
+به من بگو در ایران ساعت چند است,لطفا به من در آبادان ساعت چند است,different_argument,datetime_query,datetime_query,0.6764705882352942,True,True,False,0.6532208,0.895869,0.7843623,0.7558655
+سفارشم چطور است,بیرون چطور است,different_intent,takeaway_query,weather_query,0.34782608695652173,True,True,False,0.24643919,0.90227646,0.26612315,0.6528681
+سفارشم چطور است,ترافیک چطور است,different_intent,takeaway_query,transport_traffic,0.3333333333333333,True,True,False,0.06343697,0.9059994,0.3452577,0.65653336
+لامپ اتاق کوچک را خاموش کن,لامپ اتاق هال را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.6206896551724138,True,True,False,0.9281197,0.96887684,0.9215195,0.85514116
+آلی لامپ ها را خاموش کن,علی لطفا لامپ ها را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.7391304347826086,True,True,False,0.92408,0.96442485,0.7821518,0.906891
+غذای بیرون بر سفارش بده,اکبرجوجه بیرون بر سفارش بده,different_argument,takeaway_order,takeaway_order,0.5294117647058824,True,True,False,0.74712867,0.93640155,0.6709174,0.83451605
+اخبار را به من بده,پاسخ ها را به من بده,different_intent,news_query,general_quirky,0.375,False,False,False,0.5475949,0.91070133,0.53858685,0.78653955
+اخبار روزانه,اخبار سرگرمی,different_argument,news_query,news_query,0.3,True,True,False,0.85078436,0.9339675,0.7735729,0.7906816
+نور لامپ‌ها را کم کن,علی لطفا لامپ ها را کم کن,same_meaning,iot_hue_lightdim,iot_hue_lightdim,0.5454545454545454,True,False,False,0.92571086,0.95391464,0.8290525,0.8886595
+نور لامپ‌ها را کم کن,نور سقف رو کم کن,different_argument,iot_hue_lightdim,iot_hue_lightdim,0.4090909090909091,False,False,False,0.7902616,0.93348634,0.8490879,0.88873947
+نور لامپ‌ها را کم کن,روشنایی لامپ ها را کم کن,same_meaning,iot_hue_lightdim,iot_hue_lightdim,0.46153846153846156,False,False,True,0.9867326,0.9900448,0.99401146,0.983832
+راک کلاسیک پخش کن,آهنگ های کلاسیک پخش کن,different_argument,play_music,play_music,0.48148148148148145,True,False,False,0.78159857,0.95113015,0.75319433,0.82905996
+بیرون هوا چطور است,فردا هوا چطور است,different_argument,weather_query,weather_query,0.48,True,False,True,0.7028587,0.9314529,0.7419901,0.79314387
+ولنتاین چند شنبه است,دوازدهم چند شنبه است,different_argument,datetime_query,datetime_query,0.4,True,True,False,0.5988492,0.92001474,0.79416275,0.67508554
+لامپ ایوان را خاموش کن,لطفا لامپ حمام را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5,True,True,False,0.7122085,0.94838357,0.6541145,0.806398
+لامپ ایوان را خاموش کن,لامپ اتاق را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.56,True,False,True,0.82826763,0.9538533,0.8743342,0.8624765
+روشنایی را بیشتر کن,روشنایی را خاموش کن,different_intent,iot_hue_lightup,iot_hue_lightoff,0.4166666666666667,True,False,True,0.8148984,0.9401706,0.64777535,0.80508476
+روشنایی را بیشتر کن,روشنایی را زیاد کن,same_meaning,iot_hue_lightup,iot_hue_lightup,0.43478260869565216,False,False,True,0.97387815,0.9818042,0.9803536,0.9911729
+روشنایی را بیشتر کن,لطفا روشنایی را طبیعی کن,different_intent,iot_hue_lightup,iot_hue_lightchange,0.4166666666666667,False,False,True,0.8326011,0.93369746,0.8233234,0.85789657
+آخرین اخبار ناحیه,آخرین اخبار چیست,same_meaning,news_query,news_query,0.5217391304347826,True,True,False,0.69937503,0.92019,0.7302723,0.6058846
+لیست موزیک را باز کن,لیست من را باز کن,different_intent,play_music,lists_query,0.5714285714285714,False,False,False,0.5725152,0.9457896,0.6647338,0.85731566
+آیا امشب باران می بارد,آیا شنبه باران می بارد,different_argument,weather_query,weather_query,0.5555555555555556,True,False,True,0.87809205,0.94153315,0.8922948,0.76636815
+آیا امشب باران می بارد,آیا دوشنبه باران می بارد,different_argument,weather_query,weather_query,0.5172413793103449,True,False,True,0.81327707,0.9389601,0.89541376,0.7762983
+آیا امشب باران می بارد,آیا بعدا باران می بارد,different_argument,weather_query,weather_query,0.5769230769230769,True,True,True,0.86128294,0.9529901,0.92419463,0.8280921
+پریز را خاموش کن,روشنایی را خاموش کن,different_intent,iot_wemo_off,iot_hue_lightoff,0.34782608695652173,True,True,True,0.7044336,0.9416746,0.8131114,0.8109472
+پریز را خاموش کن,بلندگوها را خاموش کن,different_intent,iot_wemo_off,audio_volume_mute,0.3333333333333333,True,True,False,0.93893236,0.9272487,0.68386334,0.76554304
+پریز را خاموش کن,دوشاخه را خاموش کن,different_argument,iot_wemo_off,iot_wemo_off,0.36363636363636365,True,True,False,0.8784946,0.9454179,0.6951343,0.77165836
+پریز را خاموش کن,صداها را خاموش کن,different_intent,iot_wemo_off,audio_volume_mute,0.38095238095238093,True,True,False,0.7677938,0.9387098,0.6962359,0.7592188
+پریز را خاموش کن,سوکت ها را خاموش کن,different_argument,iot_wemo_off,iot_wemo_off,0.36363636363636365,True,True,False,0.8184743,0.9408387,0.8108965,0.7706393
+پریز را خاموش کن,سوکت را لطفا خاموش کن,different_argument,iot_wemo_off,iot_wemo_off,0.4,True,True,False,0.761363,0.9432228,0.68621933,0.7663473
+لطفا آهنگ فولک پخش کن,آهنگ بعدی را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.60329,0.92681175,0.70993125,0.73687303
+لطفا آهنگ فولک پخش کن,آهنگ تکنو پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.7423019,0.93022144,0.78911966,0.70365494
+لطفا آهنگ فولک پخش کن,آهنگ من را پخش کن,different_argument,play_music,play_music,0.5238095238095238,True,True,False,0.71454966,0.9002938,0.76468194,0.75989044
+لطفا آهنگ فولک پخش کن,آهنگ قبلی را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.6170006,0.9301266,0.67205334,0.7279122
+لطفا آهنگ فولک پخش کن,آهنگ ترس را پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.589099,0.88888717,0.49617064,0.72307175
+لطفا آهنگ فولک پخش کن,آهنگ منتخب را پخش کن,different_argument,play_music,play_music,0.4583333333333333,True,True,False,0.6663853,0.93102294,0.725722,0.7531972
+لطفا آهنگ فولک پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.4583333333333333,True,True,False,0.72086734,0.909213,0.5932592,0.7228838
+در سیاست چه خبر است,در ایرلند چه خبر است,different_argument,news_query,news_query,0.52,True,True,False,0.33806562,0.8597268,0.4129352,0.65932333
+در سیاست چه خبر است,در تهران چه خبر است,different_intent,news_query,recommendation_events,0.52,True,True,False,0.3944298,0.9137653,0.4855282,0.7722884
+در سیاست چه خبر است,در ساری چه خبر است,different_intent,news_query,recommendation_events,0.6086956521739131,True,True,False,0.35574633,0.87218595,0.44300443,0.6334779
+بلندگوها را بی صدا کن,موسیقی را بی صدا کن,same_meaning,audio_volume_mute,audio_volume_mute,0.3333333333333333,False,True,False,0.598655,0.93097216,0.7814063,0.87558687
+صدای بلندگوها رو قطع کن.,لطفا صدای بلندگو رو قطع کن,same_meaning,audio_volume_mute,audio_volume_mute,0.7391304347826086,False,True,False,0.85349923,0.9713093,0.9484581,0.938357
+هشدارهایم را به من بگو,دما را به من بگو,different_intent,alarm_query,weather_query,0.23809523809523808,True,True,False,0.5725932,0.8976673,0.32308406,0.7071808
+هوای اینجا چطور است,هوای اصفهان چطور است,different_argument,weather_query,weather_query,0.5185185185185185,True,False,False,0.6489531,0.89723516,0.7039627,0.73715675
+هوای اینجا چطور است,هوای امروز چطور است,different_argument,weather_query,weather_query,0.5384615384615384,True,False,True,0.87820655,0.9490396,0.87891793,0.8715705
+هوای اینجا چطور است,هوای زاهدان چطور است,different_argument,weather_query,weather_query,0.4642857142857143,True,True,False,0.81135947,0.89594185,0.73233825,0.66352355
+هوای اینجا چطور است,هوای رفسنجان چطور است,different_argument,weather_query,weather_query,0.5,True,True,False,0.74282616,0.9009029,0.84519553,0.68713605
+لطفا جاروبرقی من را روشن کن,جاروبرقی roomba را روشن کن,different_argument,iot_cleaning,iot_cleaning,0.5714285714285714,True,True,False,0.6588723,0.9396322,0.684432,0.82111734
+در زنجان ساعت چند است,در اهواز ساعت چند است,different_argument,datetime_query,datetime_query,0.5172413793103449,True,True,False,0.8352532,0.91337305,0.89918995,0.715811
+در زنجان ساعت چند است,در مشهد ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.9108692,0.8856467,0.84012944,0.7318095
+در زنجان ساعت چند است,در اراک ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.8979032,0.8777642,0.84285855,0.7377048
+در زنجان ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.8576052,0.895185,0.67097837,0.73570096
+در زنجان ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.8449059,0.9002284,0.8800628,0.7092414
+لیست آهنگ های کانتری من را پخش کن,لیست آهنگ های باشگاهی من را پخش کن,different_argument,play_music,play_music,0.6052631578947368,True,True,False,0.88237226,0.9633549,0.8663388,0.8009237
+لطفا قهوه را شروع کن,قهوه را درست کن,same_meaning,iot_coffee,iot_coffee,0.3684210526315789,False,False,False,0.86506903,0.9298105,0.87674075,0.8647344
+لطفا قهوه را شروع کن,بازی را شروع کن,different_intent,iot_coffee,play_game,0.3684210526315789,True,False,False,0.35879523,0.9120016,0.2428271,0.7289921
+لطفا قهوه را شروع کن,پاسخ را شروع کن,different_intent,iot_coffee,email_sendemail,0.3684210526315789,True,False,False,0.44989607,0.9179427,0.3608994,0.699909
+زنگ تنظیمی را حذف کن,زنگ هشدار را حذف کن,same_meaning,alarm_remove,alarm_remove,0.4,False,True,False,0.7230229,0.9552823,0.84805316,0.8804938
+زنگ هشدار را کنسل کن,زنگ هشدار را درست کن,different_intent,alarm_remove,alarm_set,0.5217391304347826,True,True,False,0.8806492,0.94807106,0.7797747,0.83090824
+زنگ هشدار را کنسل کن,زنگ هشدار را حذف کن,same_meaning,alarm_remove,alarm_remove,0.5454545454545454,True,True,False,0.8797273,0.96919584,0.9416027,0.9481919
+آهنگ بعدی را پخش کن,آهنگ تکنو پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.6139211,0.924847,0.6853382,0.72269934
+آهنگ بعدی را پخش کن,آهنگ من را پخش کن,same_meaning,play_music,play_music,0.5238095238095238,False,False,False,0.7320775,0.9250159,0.77023995,0.8193203
+آهنگ بعدی را پخش کن,آهنگ قبلی را پخش کن,different_argument,play_music,play_music,0.5454545454545454,False,True,False,0.89675015,0.9615695,0.81835455,0.9028499
+آهنگ بعدی را پخش کن,آهنگ ترس را پخش کن,different_argument,play_music,play_music,0.5,True,False,False,0.5386807,0.9028851,0.45575643,0.74503815
+آهنگ بعدی را پخش کن,آهنگ منتخب را پخش کن,same_meaning,play_music,play_music,0.4583333333333333,False,True,False,0.74524224,0.9467657,0.72721124,0.7993408
+آهنگ بعدی را پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.4583333333333333,True,True,False,0.61968964,0.9143295,0.54650176,0.74205303
+غذایم را پیدا کن,بازی را پیدا کن,different_intent,takeaway_query,play_game,0.35,True,True,False,0.5249883,0.8933021,0.37189162,0.7472621
+غذایم را پیدا کن,فهرست را پیدا کن,different_intent,takeaway_query,lists_query,0.3333333333333333,True,True,False,0.50987136,0.9028331,0.41207355,0.7034308
+غذایم را پیدا کن,اطلاعات رو برام پیدا کن,different_intent,takeaway_query,qa_definition,0.30434782608695654,True,True,False,0.50297976,0.9057263,0.45237848,0.75086135
+غذایم را پیدا کن,مسیر را پیدا کن,different_intent,takeaway_query,qa_factoid,0.35,True,True,False,0.5006572,0.91269886,0.42489934,0.74208176
+غذایم را پیدا کن,مخاطب را پیدا کن,different_intent,takeaway_query,email_query,0.3333333333333333,True,True,False,0.51290387,0.9040392,0.31233954,0.65296525
+یک آهنگ بزار,لطفا الان آهنگ بزار,same_meaning,play_music,play_music,0.47368421052631576,False,False,True,0.8015858,0.9260732,0.8354986,0.7681942
+روشنایی را خاموش کن,بلندگوها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.2962962962962963,False,True,True,0.78649503,0.94139147,0.6090574,0.82262933
+روشنایی را خاموش کن,دوشاخه را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.32,True,False,True,0.75952613,0.9500493,0.6858434,0.807686
+روشنایی را خاموش کن,صداها را خاموش کن,different_intent,iot_hue_lightoff,audio_volume_mute,0.3333333333333333,False,False,True,0.62413025,0.958243,0.6180806,0.82579076
+روشنایی را خاموش کن,روشنایی را زیاد کن,different_intent,iot_hue_lightoff,iot_hue_lightup,0.43478260869565216,True,False,True,0.77492887,0.9350827,0.67342466,0.8094528
+روشنایی را خاموش کن,سوکت ها را خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.32,False,False,True,0.7861421,0.9367692,0.8430155,0.8289883
+روشنایی را خاموش کن,لطفا روشنایی را طبیعی کن,different_intent,iot_hue_lightoff,iot_hue_lightchange,0.4166666666666667,True,False,True,0.7019739,0.92509884,0.7383024,0.8098627
+روشنایی را خاموش کن,سوکت را لطفا خاموش کن,different_intent,iot_hue_lightoff,iot_wemo_off,0.34782608695652173,True,False,True,0.6598452,0.9386083,0.71664906,0.8169983
+در منطقه زمانی شرقی الان ساعت چند است,در منطقه زمانی مرکزی الان ساعت چند است,different_argument,datetime_query,datetime_query,0.75,True,True,False,0.87534595,0.9687146,0.84353197,0.8608135
+بلندگوها را خاموش کن,دوشاخه را خاموش کن,different_intent,audio_volume_mute,iot_wemo_off,0.3076923076923077,True,True,False,0.87754,0.93426895,0.6189693,0.7741679
+بلندگوها را خاموش کن,صداها را خاموش کن,same_meaning,audio_volume_mute,audio_volume_mute,0.43478260869565216,False,True,False,0.8229569,0.95203257,0.901907,0.93535674
+بلندگوها را خاموش کن,سوکت ها را خاموش کن,different_intent,audio_volume_mute,iot_wemo_off,0.4166666666666667,False,True,False,0.89709204,0.9303423,0.7205599,0.8472761
+بلندگوها را خاموش کن,سوکت را لطفا خاموش کن,different_intent,audio_volume_mute,iot_wemo_off,0.3333333333333333,True,True,False,0.8129637,0.9193415,0.63818955,0.8439237
+موزیک گیلکی پخش کن,موزیک رپ پخش کن,different_argument,play_music,play_music,0.5217391304347826,True,True,False,0.8974855,0.9526303,0.628845,0.7203691
+علی لطفا لامپ ها را کم کن,روشنایی لامپ ها را کم کن,same_meaning,iot_hue_lightdim,iot_hue_lightdim,0.52,True,False,True,0.8935678,0.955762,0.82070816,0.8925505
+علی لطفا لامپ ها را کم کن,علی لطفا لامپ ها را خاموش کن,different_intent,iot_hue_lightdim,iot_hue_lightoff,0.5416666666666666,True,False,True,0.9432905,0.98644185,0.99047947,0.95526725
+در اهواز ساعت چند است,در مشهد ساعت چند است,different_argument,datetime_query,datetime_query,0.5357142857142857,True,True,False,0.83759665,0.9110925,0.8947728,0.72620547
+در اهواز ساعت چند است,در اراک ساعت چند است,different_argument,datetime_query,datetime_query,0.5925925925925926,True,True,False,0.80410105,0.889842,0.8917171,0.74649364
+در اهواز ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.7455839,0.9079962,0.72620416,0.7555413
+در اهواز ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.7219734,0.8884906,0.90692997,0.6963599
+هوای اصفهان چطور است,هوای امروز چطور است,different_argument,weather_query,weather_query,0.5185185185185185,True,False,True,0.57261753,0.91359943,0.62900656,0.7185185
+هوای اصفهان چطور است,هوای زاهدان چطور است,different_argument,weather_query,weather_query,0.5555555555555556,True,True,False,0.65440303,0.9026378,0.79972017,0.6791213
+هوای اصفهان چطور است,هوای رفسنجان چطور است,different_argument,weather_query,weather_query,0.5357142857142857,True,True,False,0.5525981,0.89826655,0.682109,0.71581733
+لطفا یک فنجان قهوه برای من درست کن,یک فنجان قهوه برای من آماده کن,same_meaning,iot_coffee,iot_coffee,0.6486486486486487,False,False,False,0.9578733,0.98513436,0.9782352,0.9761509
+دوشاخه را خاموش کن,صداها را خاموش کن,different_intent,iot_wemo_off,audio_volume_mute,0.34782608695652173,True,False,False,0.6698228,0.94701827,0.65510845,0.7768369
+دوشاخه را خاموش کن,سوکت ها را خاموش کن,same_meaning,iot_wemo_off,iot_wemo_off,0.3333333333333333,True,False,False,0.8430475,0.93797433,0.729456,0.8083643
+دوشاخه را خاموش کن,سوکت را لطفا خاموش کن,same_meaning,iot_wemo_off,iot_wemo_off,0.36363636363636365,True,False,False,0.7494594,0.9414257,0.6580295,0.79021776
+ماشین کجاست,جهرم کجاست,different_intent,audio_volume_up,qa_factoid,0.2777777777777778,True,True,False,0.52705187,0.9308361,0.47142822,0.45846942
+ماشین کجاست,دانمارک کجاست,different_intent,audio_volume_up,qa_factoid,0.23809523809523808,True,True,False,0.16822763,0.8678682,0.20834729,0.43961245
+ماشین کجاست,فیجی کجاست,different_intent,audio_volume_up,qa_factoid,0.2777777777777778,True,False,False,0.15625858,0.90922296,0.3627048,0.43096432
+هوای هفته آینده چطور است,هوای چهارشنبه آینده چطور است,different_argument,weather_query,weather_query,0.5882352941176471,True,False,True,0.92821884,0.94702965,0.90913486,0.84462816
+آیا شنبه باران می بارد,آیا دوشنبه باران می بارد,different_argument,weather_query,weather_query,0.76,True,False,False,0.8662326,0.96455336,0.940597,0.82468665
+آیا شنبه باران می بارد,آیا بعدا باران می بارد,different_argument,weather_query,weather_query,0.5769230769230769,True,True,False,0.84862196,0.9300809,0.92604166,0.77412426
+زمان سکوت,زمان یه جایی رو بهم بگو,different_intent,audio_volume_mute,datetime_convert,0.3333333333333333,True,True,False,0.44312507,0.8519472,0.38422263,0.5659102
+صدا را افزایش بده لطفا,صدا را کاهش بده,different_intent,audio_volume_up,audio_volume_down,0.4,False,True,False,0.7481123,0.9161833,0.487556,0.85853255
+آهنگی از ابی پخش کن,میتونی لطفا آهنگی از ابی پخش کنی,same_meaning,play_music,play_music,0.8636363636363636,False,False,False,0.8467182,0.9506054,0.8463438,0.92106354
+نفرین را پخش کن,آهنگ ها را پخش کن,same_meaning,play_music,play_music,0.2857142857142857,True,True,False,0.40865207,0.9204277,0.40716857,0.6956339
+نفرین را پخش کن,آهنگ پخش کن,same_meaning,play_music,play_music,0.3157894736842105,True,True,False,0.46454185,0.9131899,0.5075541,0.711141
+نفرین را پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.3,True,True,False,0.6574524,0.91795266,0.6382183,0.56099427
+نفرین را پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.35294117647058826,True,True,False,0.8302361,0.9418452,0.5528391,0.7381309
+نفرین را پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.3157894736842105,True,True,False,0.526088,0.9302026,0.48840398,0.7055126
+نفرین را پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.2727272727272727,True,True,False,0.561345,0.9282521,0.46183968,0.66085386
+الان در نیشابور ساعت چند است,الان در ایران ساعت چند است,different_argument,datetime_query,datetime_query,0.5714285714285714,True,True,False,0.72682434,0.9018706,0.76166964,0.77944815
+لطفا لامپ ها را پاسیو خاموش کن,لامپ‌ها روشن را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.5357142857142857,True,True,True,0.9010205,0.96260774,0.8625839,0.905974
+صدا را قطع کن,صدا را متوقف کن,same_meaning,audio_volume_mute,audio_volume_mute,0.3333333333333333,True,True,False,0.93677664,0.9786628,0.980819,0.9501108
+وضع هوای تهران چطور است,وضع هوای پایتخت چطور است,different_argument,weather_query,weather_query,0.53125,True,True,False,0.6335869,0.97343725,0.68909883,0.9500669
+در مشهد ساعت چند است,در اراک ساعت چند است,different_argument,datetime_query,datetime_query,0.5555555555555556,True,True,False,0.9322263,0.870721,0.8469857,0.6691071
+در مشهد ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5769230769230769,True,True,False,0.77963793,0.92508316,0.71937597,0.7694093
+در مشهد ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5769230769230769,True,True,False,0.8692621,0.89378154,0.8564683,0.6578609
+آیا امروز آفتابی است,هوا امروز آفتابی است,different_intent,weather_query,general_quirky,0.68,True,False,False,0.8085512,0.9500597,0.9075763,0.91444904
+در مورد هشدار به من بگو,در مورد نوشهر به من بگو,different_intent,alarm_query,qa_factoid,0.5384615384615384,True,True,False,0.5036893,0.8854175,0.470976,0.6014217
+لطفا لامپ حمام را خاموش کن,لطفا چراغ‌های حمام را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.4642857142857143,False,False,False,0.9512714,0.96264225,0.97768456,0.95974874
+لطفا لامپ حمام را خاموش کن,لامپ اتاق را خاموش کن,different_argument,iot_hue_lightoff,iot_hue_lightoff,0.52,True,True,True,0.743467,0.959937,0.6881136,0.86422074
+صداها را خاموش کن,سوکت ها را خاموش کن,different_intent,audio_volume_mute,iot_wemo_off,0.47619047619047616,False,False,False,0.7736577,0.9313211,0.7667023,0.8385863
+صداها را خاموش کن,سوکت را لطفا خاموش کن,different_intent,audio_volume_mute,iot_wemo_off,0.38095238095238093,True,False,False,0.6971034,0.9283036,0.70089203,0.84968495
+الان هوا چطوره,هی امروز هوا چطوره,different_argument,weather_query,weather_query,0.47619047619047616,True,False,True,0.8974175,0.97236663,0.8986105,0.93079567
+روشنایی را زیاد کن,لطفا روشنایی را طبیعی کن,different_intent,iot_hue_lightup,iot_hue_lightchange,0.43478260869565216,False,False,True,0.876956,0.92313457,0.8111714,0.8604922
+تکرار را روشن کن,رادیو را روشن کن,different_intent,music_settings,play_radio,0.3333333333333333,True,False,False,0.36537462,0.91819525,0.3614043,0.7196306
+تکرار را روشن کن,رادیوکافه را روشن کن,different_intent,music_settings,play_podcasts,0.28,False,False,False,0.40638673,0.88625336,0.36692342,0.69689834
+لطفا کم کن,خاموش کن,same_meaning,iot_wemo_off,iot_wemo_off,0.15384615384615385,True,False,True,0.54832554,0.9119796,0.6798066,0.7182984
+لطفا کم کن,لغو کن,different_intent,iot_wemo_off,calendar_remove,0.18181818181818182,False,False,True,0.6069559,0.8733572,0.60917103,0.6731564
+لطفا کم کن,یادآوری کن,different_intent,iot_wemo_off,calendar_set,0.13333333333333333,True,False,True,0.6825894,0.9111558,0.4627535,0.628798
+لطفا کم کن,پخش کن,different_intent,iot_wemo_off,play_radio,0.18181818181818182,False,False,True,0.5872582,0.88793993,0.5822587,0.54952884
+لطفا کم کن,متوقف کن,different_intent,iot_wemo_off,play_audiobook,0.15384615384615385,False,False,True,0.52525246,0.8816378,0.59888136,0.66679156
+لطفا کم کن,بازی کن,different_intent,iot_wemo_off,play_game,0.16666666666666666,False,False,True,0.4409572,0.8256347,0.29229882,0.6014067
+لطفا کم کن,جایگزین کن,different_intent,iot_wemo_off,lists_remove,0.13333333333333333,False,True,True,0.32590222,0.8883984,0.34681982,0.60648614
+خاموش کن,لغو کن,different_intent,iot_wemo_off,calendar_remove,0.14285714285714285,True,False,True,0.74141175,0.90052414,0.6901356,0.7354758
+خاموش کن,یادآوری کن,different_intent,iot_wemo_off,calendar_set,0.1111111111111111,True,False,True,0.46829894,0.91663146,0.38437787,0.62774616
+خاموش کن,پخش کن,different_intent,iot_wemo_off,play_radio,0.23076923076923078,True,False,True,0.52007675,0.90743977,0.5009116,0.6239149
+خاموش کن,متوقف کن,different_intent,iot_wemo_off,play_audiobook,0.125,True,False,True,0.7447051,0.9310031,0.72867787,0.83100426
+خاموش کن,بازی کن,different_intent,iot_wemo_off,play_game,0.13333333333333333,True,False,True,0.423578,0.871686,0.2255618,0.6259997
+خاموش کن,جایگزین کن,different_intent,iot_wemo_off,lists_remove,0.1111111111111111,True,True,True,0.34801662,0.8985597,0.32548913,0.6498563
+یک قهوه درست کن,میشه لطفا یک قهوه درست کنی,same_meaning,iot_coffee,iot_coffee,0.8333333333333334,False,False,False,0.9198577,0.9531449,0.93967533,0.89443445
+اسپاتیفای را باز کن,اینترنت رو باز کن,different_intent,play_music,takeaway_order,0.28,True,True,False,0.55953574,0.88133204,0.66680753,0.72122514
+اسپاتیفای را باز کن,ساعت را باز کن,different_intent,play_music,alarm_set,0.2608695652173913,True,True,False,0.66219115,0.87943685,0.3451376,0.71534216
+اسپاتیفای را باز کن,pandora رو باز کن,different_intent,play_music,play_radio,0.23076923076923078,True,True,False,0.6658088,0.88951993,0.5879583,0.7390995
+اسپاتیفای را باز کن,پاندورا را باز کن,different_intent,play_music,play_radio,0.23076923076923078,True,True,False,0.80786145,0.9117882,0.67920184,0.7400615
+اسپاتیفای را باز کن,سالیتر را باز کن,different_intent,play_music,play_game,0.24,True,True,False,0.7537471,0.9070036,0.8097922,0.7465488
+اسپاتیفای را باز کن,بازی ها را باز کن,different_intent,play_music,play_game,0.2608695652173913,True,True,False,0.6713895,0.8982626,0.50871646,0.7769669
+اسپاتیفای را باز کن,مخاطبین را باز کن,different_intent,play_music,email_addcontact,0.23076923076923078,True,True,False,0.6386462,0.9054175,0.44799212,0.7167728
+میتونی لطفا ابی پخش کنی,میتونی دا را پخش کنی,different_intent,play_music,play_audiobook,0.4375,True,False,False,0.77702,0.94457036,0.8430495,0.7973461
+سلام علی تنظیمات نور فعلی را تصادفی کن,سلام سارا تنظیمات نور فعلی را تصادفی کن,same_meaning,iot_hue_lightchange,iot_hue_lightchange,0.7948717948717948,True,False,False,0.84149575,0.9782182,0.90520513,0.9366979
+سلام اوولی ساعت چند است,سلام سیری ساعت چند است,same_meaning,datetime_query,datetime_query,0.6206896551724138,False,True,False,0.89105237,0.91586447,0.8577199,0.880977
+لطفا پاسخ نده,پاسخ بفرست,different_intent,audio_volume_mute,email_sendemail,0.3333333333333333,True,True,False,0.59977686,0.8965163,0.44889805,0.6617686
+لطفا پاسخ نده,پاسخ بنویس,different_intent,audio_volume_mute,email_sendemail,0.3333333333333333,True,True,False,0.54933524,0.92602414,0.455101,0.61429596
+لطفا پاسخ نده,پاسخ بده,different_intent,audio_volume_mute,email_sendemail,0.5,True,True,False,0.5615532,0.942497,0.46659693,0.71690303
+هوای امروز چطور است,هوای زاهدان چطور است,different_argument,weather_query,weather_query,0.4642857142857143,True,True,True,0.7574165,0.9034558,0.64555055,0.6369046
+هوای امروز چطور است,هوای رفسنجان چطور است,different_argument,weather_query,weather_query,0.4482758620689655,True,True,True,0.56192917,0.90430963,0.69725144,0.64833504
+هوای امروز چطور است,لیست امروز چطور است,different_intent,weather_query,lists_query,0.56,True,False,False,0.5066209,0.90535396,0.4986493,0.7396598
+اینترنت رو باز کن,ساعت را باز کن,different_intent,takeaway_order,alarm_set,0.35,True,True,False,0.50481683,0.87797827,0.37780914,0.72037274
+اینترنت رو باز کن,pandora رو باز کن,different_intent,takeaway_order,play_radio,0.25,True,True,False,0.5778448,0.91526693,0.6595024,0.69107753
+اینترنت رو باز کن,پاندورا را باز کن,different_intent,takeaway_order,play_radio,0.25,True,True,False,0.54025334,0.8659856,0.57379997,0.6723606
+اینترنت رو باز کن,سالیتر را باز کن,different_intent,takeaway_order,play_game,0.2608695652173913,True,True,False,0.6200103,0.8679279,0.6695122,0.67833436
+اینترنت رو باز کن,بازی ها را باز کن,different_intent,takeaway_order,play_game,0.2857142857142857,True,True,False,0.5401438,0.85904825,0.51014113,0.74435806
+اینترنت رو باز کن,مخاطبین را باز کن,different_intent,takeaway_order,email_addcontact,0.25,True,True,False,0.5433303,0.8789611,0.56925714,0.69092107
+صدا را متوقف کن,پخش را متوقف کن,different_intent,audio_volume_mute,play_audiobook,0.4444444444444444,False,False,False,0.81119794,0.95034707,0.7829701,0.84245086
+هوای زاهدان چطور است,هوای رفسنجان چطور است,different_argument,weather_query,weather_query,0.5357142857142857,True,True,False,0.6060766,0.91047335,0.6922044,0.6575328
+آهنگ ها را پخش کن,آهنگ پخش کن,same_meaning,play_music,play_music,0.625,False,False,False,0.82409954,0.93020743,0.86175406,0.8959925
+آهنگ ها را پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.2857142857142857,False,False,False,0.50502676,0.9063182,0.58114296,0.6015453
+آهنگ ها را پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.4117647058823529,True,False,False,0.49649805,0.9312223,0.53552794,0.7913501
+آهنگ ها را پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.3,False,False,False,0.3758575,0.93979096,0.5338075,0.7721528
+آهنگ ها را پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.2608695652173913,True,False,False,0.73930407,0.92164946,0.56911284,0.71640885
+در اراک ساعت چند است,در شهر ساعت چند است,different_argument,datetime_query,datetime_query,0.5769230769230769,True,True,False,0.81601536,0.88587254,0.8478099,0.7507205
+در اراک ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.5769230769230769,True,True,False,0.8934194,0.89231706,0.92657506,0.7259263
+لطفا لامپ‌های اتاق خواب را خاموش کن,چراغ‌های اتاق خواب را خاموش کن,same_meaning,iot_hue_lightoff,iot_hue_lightoff,0.6363636363636364,False,False,False,0.94646436,0.96749514,0.95951647,0.9606232
+زنگ هشدار را برای پنج صبح تنظیم کن,زنگ هشدار را برای شش صبح تنظیم کن,different_argument,alarm_set,alarm_set,0.75,True,False,False,0.9404547,0.9753382,0.76890993,0.93004465
+آیا دوشنبه باران می بارد,آیا بعدا باران می بارد,different_argument,weather_query,weather_query,0.5357142857142857,True,True,False,0.7857721,0.93299836,0.9270736,0.7628368
+لطفا سوکت دوشاخه‌ی مهسان را روشن کن,سوکت دوشاخه‌ی مهسان را خاموش کن,different_intent,iot_wemo_on,iot_wemo_off,0.6285714285714286,True,False,True,0.80627203,0.9598013,0.80447924,0.8815647
+اطلاعات را پاک کن,تقویم را پاک کن,different_intent,audio_volume_mute,calendar_remove,0.2727272727272727,False,False,False,0.60248566,0.94478774,0.6232772,0.78827643
+اطلاعات را پاک کن,آن را پاک کن,different_intent,audio_volume_mute,calendar_remove,0.3157894736842105,False,False,False,0.77398765,0.94563407,0.6835228,0.8151303
+اطلاعات را پاک کن,فهرست را پاک کن,different_intent,audio_volume_mute,lists_remove,0.3333333333333333,False,False,False,0.7752952,0.95766854,0.82445985,0.8077362
+اطلاعات را پاک کن,لیست را پاک کن,different_intent,audio_volume_mute,lists_remove,0.35,False,False,False,0.74961615,0.95223397,0.80885375,0.8170285
+اطلاعات را پاک کن,همه را پاک کن,different_intent,audio_volume_mute,lists_remove,0.3,False,False,True,0.6749221,0.94213325,0.6763386,0.8189759
+اطلاعات را پاک کن,اطلاعات رو برام پیدا کن,different_intent,audio_volume_mute,qa_definition,0.55,False,False,False,0.45324686,0.9067731,0.27078938,0.75257236
+در شهر ساعت چند است,در کرج ساعت چند است,different_argument,datetime_query,datetime_query,0.6,True,True,False,0.810736,0.9041842,0.7755971,0.7432544
+متن من را پخش کن,آهنگ من را پخش کن,different_argument,play_music,play_music,0.45,False,True,False,0.6669879,0.9607439,0.6271426,0.8895708
+سوکت ها را خاموش کن,سوکت را لطفا خاموش کن,same_meaning,iot_wemo_off,iot_wemo_off,0.6666666666666666,True,False,False,0.838336,0.9601718,0.89816415,0.95326877
+در منطقه زمانی شرقی ساعت چند است,در منطقه زمانی مرکزی ساعت چند است,different_argument,datetime_query,datetime_query,0.717948717948718,True,True,False,0.84586406,0.9619211,0.83947396,0.8020372
+یک هشدار جدید بساز,یک لیست جدید بساز,different_intent,alarm_set,lists_createoradd,0.48,False,False,False,0.42573196,0.94209814,0.5545728,0.75674534
+بیرون چطور است,بیرون سرد است,different_argument,weather_query,weather_query,0.45,True,True,False,0.3860153,0.9179782,0.4889242,0.77597916
+بیرون چطور است,ترافیک چطور است,different_intent,weather_query,transport_traffic,0.34782608695652173,True,False,False,0.35425633,0.92551696,0.52609897,0.7588837
+زنگ هشدار را درست کن,زنگ هشدار را حذف کن,different_intent,alarm_set,alarm_remove,0.5217391304347826,False,False,False,0.77335393,0.96038187,0.76482266,0.84087396
+آهنگ تکنو پخش کن,آهنگ من را پخش کن,different_argument,play_music,play_music,0.5238095238095238,True,True,False,0.71005464,0.9232512,0.7359233,0.7536786
+آهنگ تکنو پخش کن,آهنگ قبلی را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.63221693,0.9250975,0.65011036,0.69930995
+آهنگ تکنو پخش کن,آهنگ ترس را پخش کن,different_argument,play_music,play_music,0.5714285714285714,True,True,False,0.7145539,0.91009307,0.50121975,0.7295917
+آهنگ تکنو پخش کن,آهنگ منتخب را پخش کن,different_argument,play_music,play_music,0.4583333333333333,True,True,False,0.7256354,0.9380994,0.69983995,0.73241013
+آهنگ تکنو پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.4583333333333333,True,True,False,0.7945891,0.92033505,0.6019317,0.7140497
+در ایرلند چه خبر است,در تهران چه خبر است,different_intent,news_query,recommendation_events,0.48148148148148145,True,False,False,0.24042377,0.86716914,0.44146016,0.62888634
+در ایرلند چه خبر است,در ساری چه خبر است,different_intent,news_query,recommendation_events,0.5,True,False,False,0.4237563,0.8750385,0.4665707,0.5557897
+آهنگ پخش کن,تیونز پخش کن,different_intent,play_music,play_radio,0.3157894736842105,False,False,False,0.5330522,0.9277748,0.6228996,0.67423403
+آهنگ پخش کن,دا را پخش کن,different_intent,play_music,play_audiobook,0.375,True,False,False,0.5864603,0.92283154,0.5936002,0.7803012
+آهنگ پخش کن,بعدی را پخش کن,different_intent,play_music,play_podcasts,0.3333333333333333,False,False,False,0.4391555,0.9091383,0.58733,0.7587831
+آهنگ پخش کن,مونولوگ را پخش کن,different_intent,play_music,play_podcasts,0.35,True,False,False,0.77125204,0.8984786,0.64619553,0.67082787
+آیا امروز ژاکت لازم دارم,آیا امروز چتر لازم دارم,different_argument,weather_query,weather_query,0.6333333333333333,True,True,False,0.69814694,0.9280505,0.6771159,0.8163575
+آهنگ من را پخش کن,آهنگ قبلی را پخش کن,different_argument,play_music,play_music,0.5238095238095238,False,True,False,0.66633105,0.9182162,0.7073045,0.7978556
+آهنگ من را پخش کن,آهنگ ترس را پخش کن,different_argument,play_music,play_music,0.55,True,False,False,0.60805917,0.92187834,0.54905707,0.7577052
+آهنگ من را پخش کن,آهنگ منتخب را پخش کن,same_meaning,play_music,play_music,0.65,False,True,False,0.7484763,0.937371,0.7504631,0.8206275
+آهنگ من را پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.5714285714285714,True,True,False,0.73578584,0.9204011,0.59654635,0.7907817
+آهنگ قبلی را پخش کن,آهنگ ترس را پخش کن,different_argument,play_music,play_music,0.5,True,True,False,0.5698024,0.9008883,0.39618072,0.7273946
+آهنگ قبلی را پخش کن,آهنگ منتخب را پخش کن,different_argument,play_music,play_music,0.4583333333333333,False,True,False,0.7420052,0.94676435,0.700379,0.77454615
+آهنگ قبلی را پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.4583333333333333,True,True,False,0.63744116,0.916226,0.47441936,0.7303778
+تاریخ را نشان بده,جلسه‌ها را نشان بده,different_intent,datetime_query,calendar_set,0.34782608695652173,True,True,False,0.36623117,0.916047,0.52573824,0.7115285
+آهنگ های مهمانی پخش کن,آهنگ های عاشقانه پخش کن,different_argument,play_music,play_music,0.45161290322580644,True,True,False,0.6952369,0.9629744,0.6184499,0.7289438
+آهنگ های مهمانی پخش کن,آهنگ های کلاسیک پخش کن,different_argument,play_music,play_music,0.4666666666666667,True,False,False,0.5965719,0.94964266,0.5848324,0.6822924
+ساعت کنونی,ساعت زنگدار,same_meaning,datetime_query,datetime_query,0.2777777777777778,False,True,False,0.7197813,0.87055117,0.6020317,0.698895
+آهنگ ترس را پخش کن,آهنگ منتخب را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.5859152,0.91616386,0.458358,0.74185014
+آهنگ ترس را پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.4782608695652174,True,True,False,0.7262213,0.9273772,0.75321776,0.78062737
+موضوعات داغ,موضوعات ویکیپدیا,different_intent,news_query,general_quirky,0.38095238095238093,False,True,False,0.57555425,0.9418845,0.5668568,0.619402
+ساعت را باز کن,pandora رو باز کن,different_intent,alarm_set,play_radio,0.2857142857142857,True,True,False,0.5938269,0.8735109,0.43159723,0.68546075
+ساعت را باز کن,پاندورا را باز کن,different_intent,alarm_set,play_radio,0.2857142857142857,True,True,False,0.6202029,0.8906839,0.34789914,0.7064985
+ساعت را باز کن,سالیتر را باز کن,different_intent,alarm_set,play_game,0.4444444444444444,True,True,False,0.72003615,0.9094403,0.5204849,0.709908
+ساعت را باز کن,بازی ها را باز کن,different_intent,alarm_set,play_game,0.3333333333333333,True,True,False,0.5552031,0.89158773,0.41233867,0.7544681
+ساعت را باز کن,مخاطبین را باز کن,different_intent,alarm_set,email_addcontact,0.2857142857142857,True,False,False,0.6201296,0.8952587,0.40193698,0.6728003
+آهنگ منتخب را پخش کن,آهنگ نفرین را پخش کن,different_argument,play_music,play_music,0.44,True,True,False,0.67792875,0.9246893,0.5162053,0.7748588
+قهوه را درست کن,لیست درست کن,different_intent,iot_coffee,lists_createoradd,0.3888888888888889,True,False,False,0.2512941,0.8709524,0.2599546,0.6663642
+آهنگ خاطرخواه از ایوان بند را پخش کن,آهنگ عشق از ایوان بند رو پخش کن,different_intent,play_music,play_radio,0.6153846153846154,True,False,False,0.8533988,0.94760793,0.8276814,0.76899993
+در مورد روزم بهم بگو,بهم می تونی در مورد ترافیک بگی,different_intent,general_quirky,transport_traffic,0.4,True,True,False,0.2314789,0.8485044,0.3892228,0.66619587
+امروز روز چطوره,هی امروز هوا چطوره,different_intent,general_quirky,weather_query,0.5789473684210527,True,False,False,0.7669646,0.956331,0.83151567,0.8750246
+امروز روز چطوره,امروز حالت چطوره,different_argument,general_quirky,general_quirky,0.55,True,False,False,0.88227665,0.97382104,0.9439695,0.9143874
+هی امروز هوا چطوره,امروز حالت چطوره,different_intent,weather_query,general_quirky,0.5,True,False,False,0.7468825,0.9661993,0.73548853,0.84517634
+چه خبر,رادیو خبر,different_intent,general_quirky,play_radio,0.21428571428571427,True,False,False,0.3476718,0.8747243,0.2398012,0.6403668
+برنامه‌ی هفتگی من,برنامه‌ی سلامتی من,different_intent,calendar_query,lists_query,0.48,True,True,False,0.4685257,0.95232916,0.4688505,0.7629016
+آیا تو باهوشی,آیا تو خوشحالی,different_argument,general_quirky,general_quirky,0.3181818181818182,False,False,False,0.5200621,0.9493962,0.31231937,0.7404392
+گجت‌های جدید,رویداد جدید,different_intent,general_quirky,calendar_set,0.2,False,False,False,0.5664507,0.9080534,0.63950884,0.66792744
+گجت‌های جدید,فهرست جدید,different_intent,general_quirky,lists_createoradd,0.21052631578947367,False,False,False,0.6247104,0.9012542,0.6314248,0.6187308
+گجت‌های جدید,توئیت جدید,different_intent,general_quirky,social_post,0.21052631578947367,True,False,False,0.41199303,0.91649294,0.46054143,0.6306759
+گجت‌های جدید,آدرس جدید,different_intent,general_quirky,email_sendemail,0.2222222222222222,False,False,False,0.47082984,0.9095578,0.4278393,0.6096776
+رسانه اجتماعی,اطلاعات اجتماعی,same_meaning,social_query,social_query,0.30434782608695654,False,True,False,0.86620474,0.9264957,0.82990074,0.739121
+در تهران چه خبر است,در ساری چه خبر است,different_argument,recommendation_events,recommendation_events,0.5,True,False,False,0.61430615,0.8964337,0.6832917,0.6187565
+لطفا تقویم من را پاک کن,برنامه من را پاک کن,same_meaning,calendar_remove,calendar_remove,0.375,False,False,False,0.61858505,0.9501771,0.517453,0.80974317
+لطفا تقویم من را پاک کن,تقویمم من را پاک کن,same_meaning,calendar_remove,calendar_remove,0.8333333333333334,True,True,False,0.9343447,0.986112,0.95782596,0.9666475
+یک رویداد برای جمعه تنظیم کن,یک رویداد برای عصر تنظیم کن,different_argument,calendar_set,calendar_set,0.6764705882352942,True,False,False,0.69261336,0.94132906,0.7744217,0.84474003
+آیا امروز رویدادی دارم,آیا امروز یادآوری دارم,same_meaning,calendar_query,calendar_query,0.4838709677419355,True,False,False,0.7518867,0.92690146,0.71735454,0.82285297
+رویدادهای من را به من بگو,رویدادهای محلی را به من بگو,different_intent,calendar_query,recommendation_events,0.7272727272727273,False,False,False,0.7070302,0.9341934,0.7543919,0.87387186
+رویداد بعدی من را حذف کن,رویداد بعدی امروز را حذف کن,different_argument,calendar_remove,calendar_remove,0.6206896551724138,True,False,True,0.8921976,0.95802844,0.8398297,0.91764116
+تمام رویدادها را تقویم من پاک کن,تمام رویدادهای تقویم من را پاک کن,same_meaning,calendar_remove,calendar_remove,0.8484848484848485,False,False,False,0.986804,0.9914754,0.9867107,0.9911721
+برنامه امروز من را فهرست کن,برنامه امروز من را پاک کن,different_intent,calendar_query,calendar_remove,0.6,False,False,False,0.7700399,0.9527854,0.5219643,0.8017531
+رویدادها را از تقویم پاک کن,رویدادها را از تقویم حذف کن,same_meaning,calendar_remove,calendar_remove,0.6666666666666666,False,False,False,0.96527636,0.98153543,0.91221434,0.97650075
+تمام رویدادها و اطلاعات را حذف کن,تمام رویدادها و برنامه‌ها را حذف کن,same_meaning,calendar_remove,calendar_remove,0.55,True,True,False,0.9088386,0.951363,0.88387597,0.95429647
+تمام رویدادها را پاک کن,تمام رویدادها را حذف کن,same_meaning,calendar_remove,calendar_remove,0.6153846153846154,False,False,False,0.85554576,0.9721049,0.9588532,0.9568567
+تقویم را پاک کن,آن را پاک کن,same_meaning,calendar_remove,calendar_remove,0.35294117647058826,False,False,False,0.6040139,0.9366726,0.6295575,0.7551271
+تقویم را پاک کن,فهرست را پاک کن,different_intent,calendar_remove,lists_remove,0.3,False,False,False,0.6383302,0.9538508,0.6748391,0.798242
+تقویم را پاک کن,لیست را پاک کن,different_intent,calendar_remove,lists_remove,0.3157894736842105,False,False,False,0.61603504,0.956609,0.69117606,0.7994202
+تقویم را پاک کن,همه را پاک کن,different_intent,calendar_remove,lists_remove,0.3333333333333333,False,False,True,0.54359925,0.9291976,0.63759,0.76345205
+رویداد بعدی را حذف کن,میتونی رویداد بعدی رو حذف کنی,same_meaning,calendar_remove,calendar_remove,0.8571428571428571,False,False,False,0.9426044,0.96749574,0.91672754,0.9052276
+رویداد بعدی را حذف کن,رویداد آینده را حذف کن,same_meaning,calendar_remove,calendar_remove,0.5,True,False,False,0.8671535,0.9779219,0.9187583,0.9549443
+رویداد جدید,فهرست جدید,different_intent,calendar_set,lists_createoradd,0.21052631578947367,False,False,False,0.5853934,0.911615,0.8145678,0.6132677
+رویداد جدید,توئیت جدید,different_intent,calendar_set,social_post,0.21052631578947367,True,False,False,0.4812222,0.88596725,0.57552284,0.66220534
+رویداد جدید,آدرس جدید,different_intent,calendar_set,email_sendemail,0.2222222222222222,False,False,False,0.48216736,0.89007664,0.5071156,0.643484
+لغو کن,یادآوری کن,different_intent,calendar_remove,calendar_set,0.125,True,False,False,0.6238533,0.9005215,0.40841904,0.6418445
+لغو کن,پخش کن,different_intent,calendar_remove,play_radio,0.16666666666666666,False,False,False,0.5624274,0.90256244,0.63529515,0.55403525
+لغو کن,متوقف کن,different_intent,calendar_remove,play_audiobook,0.14285714285714285,False,False,False,0.77879244,0.90085775,0.8929867,0.71375096
+لغو کن,بازی کن,different_intent,calendar_remove,play_game,0.15384615384615385,False,False,False,0.51121044,0.87089336,0.35380843,0.6220323
+لغو کن,جایگزین کن,different_intent,calendar_remove,lists_remove,0.125,False,True,False,0.48565134,0.89785695,0.38525647,0.67579573
+رویداد بعدی را از تقویم حذف کن,رویداد بعدی در تقویم را حذف کن,same_meaning,calendar_remove,calendar_remove,0.75,False,False,False,0.99093354,0.99538344,0.9835339,0.9910863
+زمان رویدادها را به من بده,زمان قطار را به من بده,different_intent,calendar_query,transport_query,0.4666666666666667,True,False,False,0.63973373,0.92412853,0.617587,0.8160653
+لطفا فردا را به من یادآوری کن,تقویم را به من یادآوری کن,different_argument,calendar_set,calendar_set,0.5517241379310345,True,False,True,0.57411325,0.9296787,0.5756558,0.817436
+روز تولد,تبریک‌های تولد,different_intent,calendar_set,social_post,0.21052631578947367,True,False,False,0.925928,0.89101934,0.91968083,0.7785499
+لطفا تمام رویدادهای تقویم من را حذف کن,تمام رویدادهای تقویم من را پاک کن,same_meaning,calendar_remove,calendar_remove,0.7222222222222222,False,False,False,0.8821163,0.9774027,0.9394467,0.9576947
+این را حتما به من یادآوری کن,این مورد را به من یادآوری کن,same_meaning,calendar_set,calendar_set,0.625,True,True,False,0.858563,0.9683227,0.9021786,0.9077723
+برنامه من را پاک کن,تقویمم من را پاک کن,same_meaning,calendar_remove,calendar_remove,0.36,True,True,False,0.72097117,0.9566871,0.599318,0.8430185
+تمام رویدادها را حذف کن,تمام قرارها را حذف کن,same_meaning,calendar_remove,calendar_remove,0.48148148148148145,True,True,False,0.80647916,0.95904595,0.85170555,0.8313817
+تمام رویدادها را حذف کن,تمام فهرست‌ها را حذف کن,different_intent,calendar_remove,lists_remove,0.4642857142857143,False,False,False,0.80857366,0.9389995,0.760007,0.80861664
+چه یادآور هایی تنظیم کرده ام,چه یادآوری‌هایی تنظیم کرده‌ام,same_meaning,calendar_query,calendar_query,0.8387096774193549,False,True,False,0.9901061,0.9984039,0.99170774,0.98770666
+رویداد را از تقویم حذف کن,تولد را از تقویم حذف کن,different_argument,calendar_remove,calendar_remove,0.5714285714285714,True,False,False,0.8676487,0.9636424,0.78580403,0.8726735
+رویداد را از تقویم حذف کن,رویدادها را از تقویم حذف کن,same_meaning,calendar_remove,calendar_remove,0.7777777777777778,False,False,False,0.9829289,0.9947957,0.97364676,0.970558
+تولد را از تقویم حذف کن,رویدادها را از تقویم حذف کن,different_argument,calendar_remove,calendar_remove,0.4838709677419355,True,False,False,0.85191476,0.9613322,0.7942164,0.87009585
+همه چیز را از تقویم پاک کن,همه چیز رو از تقویمم پاک کن,same_meaning,calendar_remove,calendar_remove,0.8846153846153846,True,True,False,0.96550363,0.9877184,0.9767513,0.9682522
+جلسه من را یادآوری کن,لطفا به من یادآوری کن,different_argument,calendar_set,calendar_set,0.6363636363636364,True,False,False,0.6206141,0.93449205,0.6353365,0.8279233
+رویدادهای من را به من نشان بده,رویدادهای تبریز را به من نشان بده,different_intent,calendar_query,recommendation_events,0.75,True,True,False,0.63567674,0.9129534,0.63361645,0.7900568
+مورد تقویم را حذف کن,مورد سه را حذف کن,different_intent,calendar_remove,lists_remove,0.5,True,False,True,0.44167572,0.9267379,0.5222758,0.7677146
+رویداد بعدی در تقویم را حذف کن,رویداد بعدی در تقویم را لطفا پاک کن,same_meaning,calendar_remove,calendar_remove,0.696969696969697,False,False,False,0.8812183,0.9601053,0.945103,0.9467416
+تمام قرارها را حذف کن,تمام فهرست‌ها را حذف کن,different_intent,calendar_remove,lists_remove,0.5,True,True,False,0.82577753,0.9500248,0.86580396,0.8415942
+اطلاعات رویدادهای پیش‌رو,اطلاعات رویدادهای اخیر,different_intent,recommendation_events,calendar_query,0.6666666666666666,False,False,False,0.8933128,0.942852,0.917193,0.8170066
+آن را پاک کن,فهرست را پاک کن,different_intent,calendar_remove,lists_remove,0.35294117647058826,False,False,False,0.7233876,0.94373,0.6904229,0.78209305
+آن را پاک کن,لیست را پاک کن,different_intent,calendar_remove,lists_remove,0.375,False,False,False,0.6993002,0.952727,0.70412743,0.7890084
+آن را پاک کن,همه را پاک کن,different_intent,calendar_remove,lists_remove,0.4,False,False,True,0.83185303,0.96145844,0.84221596,0.8269193
+یادآور تنظیم کن,لیست تنظیم کن,different_intent,calendar_set,lists_createoradd,0.36363636363636365,True,False,False,0.54463357,0.95114344,0.61480486,0.7289448
+سالگرد ازدواج علی,یادآور ازدواج علی,different_intent,calendar_set,calendar_query,0.38461538461538464,True,True,False,0.6454338,0.9469144,0.8632697,0.76961935
+لطفا باقیمانده را حذف کن,مورد را حذف کن,different_intent,calendar_remove,lists_remove,0.2608695652173913,True,True,False,0.6582193,0.9206386,0.7917408,0.7218472
+لطفا باقیمانده را حذف کن,لیست را حذف کن,different_intent,calendar_remove,lists_remove,0.2608695652173913,True,True,False,0.6765504,0.93007743,0.789312,0.74451923
+لطفا آن رویداد را حذف کن,آن مورد را حذف کن,different_intent,calendar_remove,lists_remove,0.45454545454545453,False,False,False,0.7145095,0.94666755,0.83421564,0.823029
+یادآوری کن,پخش کن,different_intent,calendar_set,play_radio,0.125,True,False,False,0.69683254,0.9164382,0.57675767,0.6071819
+یادآوری کن,متوقف کن,different_intent,calendar_set,play_audiobook,0.1111111111111111,True,False,False,0.584685,0.9022652,0.41889423,0.63807416
+یادآوری کن,بازی کن,different_intent,calendar_set,play_game,0.1875,True,False,False,0.54968107,0.8734124,0.29600364,0.6848633
+یادآوری کن,جایگزین کن,different_intent,calendar_set,lists_remove,0.1,True,True,False,0.36499757,0.9154383,0.36482394,0.6779424
+لطفا یادآوری‌های من را بررسی کن,لیست من را بررسی کن,different_intent,calendar_query,lists_query,0.3793103448275862,False,True,False,0.54110897,0.92424834,0.4724381,0.8097073
+رادیو جوان را روشن کن,رادیو راه را روشن کن,different_argument,play_radio,play_radio,0.5652173913043478,True,False,False,0.9132739,0.96004766,0.8046556,0.7936463
+رادیو جوان را روشن کن,میتونی رادیو جوان را روشن کنی,same_meaning,play_radio,play_radio,0.8571428571428571,False,False,False,0.92237866,0.95885175,0.90834165,0.90239286
+رادیو جوان را روشن کن,رادیو خبر را روشن کن,different_argument,play_radio,play_radio,0.5416666666666666,True,False,False,0.8619025,0.96635485,0.8192097,0.83875453
+رادیو جوان را روشن کن,برام رادیو جوان پخش کن,same_meaning,play_radio,play_radio,0.5416666666666666,False,False,True,0.88648474,0.9374095,0.89860654,0.81363606
+رادیو جوان را روشن کن,رادیو را الان روشن کن,different_argument,play_radio,play_radio,0.6521739130434783,True,False,False,0.8890378,0.95710176,0.8149837,0.8613916
+رادیو جوان را روشن کن,رادیو ورزش روشن کن,different_argument,play_radio,play_radio,0.52,True,False,False,0.83016086,0.9406078,0.7613578,0.778556
+رادیو جوان را روشن کن,رادیو نما را روشن کن,different_argument,play_radio,play_radio,0.5416666666666666,True,True,False,0.8644955,0.95821464,0.875154,0.822363
+ایستگاه رادیویی من را روشن کن,ایستگاه رادیویی کانتری را روشن کن,different_argument,play_radio,play_radio,0.6571428571428571,True,True,False,0.876878,0.9530051,0.9435159,0.8571688
+میتونی رادیو روشن کنی,رادیو را روشن کن,same_meaning,play_radio,play_radio,0.8125,False,False,False,0.9106095,0.9608977,0.85587394,0.88657004
+pandora رو باز کن,پاندورا را باز کن,different_argument,play_radio,play_radio,0.25,True,True,False,0.7513229,0.9388348,0.6429781,0.8854697
+pandora رو باز کن,سالیتر را باز کن,different_intent,play_radio,play_game,0.2608695652173913,True,True,False,0.6034224,0.88777316,0.6600605,0.6814206
+pandora رو باز کن,بازی ها را باز کن,different_intent,play_radio,play_game,0.2857142857142857,False,True,False,0.52539337,0.86838984,0.4625166,0.6801814
+pandora رو باز کن,مخاطبین را باز کن,different_intent,play_radio,email_addcontact,0.25,False,True,False,0.56331295,0.88624305,0.55988276,0.6738292
+رادیو را روشن کن,رادیوکافه را روشن کن,different_intent,play_radio,play_podcasts,0.6,True,False,False,0.91935396,0.96709687,0.90247154,0.8396292
+رادیو جوان,رادیو خبر,different_argument,play_radio,play_radio,0.4,True,False,False,0.8669188,0.90735626,0.8529939,0.69351864
+رادیو راه را روشن کن,رادیو خبر را روشن کن,different_argument,play_radio,play_radio,0.5909090909090909,True,False,False,0.91964227,0.9708903,0.8353808,0.8198489
+رادیو راه را روشن کن,رادیو را الان روشن کن,different_argument,play_radio,play_radio,0.5652173913043478,False,False,False,0.9344341,0.96010524,0.7498709,0.8186115
+رادیو راه را روشن کن,رادیو راه را پخش کن,same_meaning,play_radio,play_radio,0.5,False,False,True,0.95433116,0.97364813,0.9180603,0.90817946
+رادیو راه را روشن کن,رادیو ورزش روشن کن,different_argument,play_radio,play_radio,0.5652173913043478,True,False,False,0.87746173,0.9441338,0.7804179,0.7849622
+رادیو راه را روشن کن,رادیو نما را روشن کن,different_argument,play_radio,play_radio,0.5909090909090909,True,True,False,0.9297806,0.96755695,0.8878741,0.82852167
+پخش کن,متوقف کن,different_intent,play_radio,play_audiobook,0.14285714285714285,False,False,False,0.5557539,0.9134524,0.5891576,0.58717525
+پخش کن,بازی کن,different_intent,play_radio,play_game,0.15384615384615385,False,False,False,0.6378921,0.89591634,0.5988265,0.7123382
+پخش کن,جایگزین کن,different_intent,play_radio,lists_remove,0.125,False,True,False,0.35768604,0.9119685,0.39662308,0.6176728
+رادیو خبر را روشن کن,رادیو را الان روشن کن,different_argument,play_radio,play_radio,0.5416666666666666,True,False,False,0.88984054,0.9657146,0.82908076,0.87949705
+رادیو خبر را روشن کن,رادیو ورزش روشن کن,different_argument,play_radio,play_radio,0.5416666666666666,True,False,False,0.81557655,0.9484986,0.7754277,0.79313517
+رادیو خبر را روشن کن,رادیو نما را روشن کن,different_argument,play_radio,play_radio,0.5652173913043478,True,True,False,0.8815305,0.9693202,0.9019468,0.87698454
+تیونز پخش کن,دا را پخش کن,different_intent,play_radio,play_audiobook,0.35294117647058826,True,False,False,0.83549947,0.9369087,0.7262368,0.56902003
+تیونز پخش کن,بعدی را پخش کن,different_intent,play_radio,play_podcasts,0.3157894736842105,False,False,False,0.58841026,0.92027664,0.6576684,0.5843165
+تیونز پخش کن,مونولوگ را پخش کن,different_intent,play_radio,play_podcasts,0.2727272727272727,True,False,False,0.6705942,0.92056227,0.6557019,0.51734716
+برام رادیو جوان پخش کن,رادیو راه را پخش کن,different_argument,play_radio,play_radio,0.5454545454545454,True,False,False,0.81780946,0.92663276,0.7359574,0.73786825
+رادیو را الان روشن کن,رادیو ورزش روشن کن,different_argument,play_radio,play_radio,0.52,True,False,False,0.8308358,0.9378553,0.7459407,0.8033871
+رادیو را الان روشن کن,رادیو نما را روشن کن,different_argument,play_radio,play_radio,0.5416666666666666,True,True,False,0.92205787,0.95812863,0.8506609,0.87555015
+پاندورا را باز کن,سالیتر را باز کن,different_intent,play_radio,play_game,0.2608695652173913,True,True,False,0.7141297,0.9148927,0.66783667,0.6627759
+پاندورا را باز کن,بازی ها را باز کن,different_intent,play_radio,play_game,0.35,True,True,False,0.5989777,0.89238095,0.46107966,0.69746864
+پاندورا را باز کن,مخاطبین را باز کن,different_intent,play_radio,email_addcontact,0.25,True,True,False,0.61356413,0.90151626,0.5340353,0.6621977
+رادیو ورزش روشن کن,رادیو نما را روشن کن,different_argument,play_radio,play_radio,0.5416666666666666,True,True,False,0.83634996,0.94369894,0.86516666,0.79745835
+میتونی دا را پخش کنی,دا را پخش کن,different_argument,play_audiobook,play_audiobook,0.75,False,False,False,0.8013838,0.9652436,0.6787554,0.8626996
+کتاب صوتی دا را از ادامه پخش کن,کتاب صوتی من را از ادامه پخش کن,different_argument,play_audiobook,play_audiobook,0.7575757575757576,True,False,False,0.87921333,0.96043277,0.92329955,0.9040078
+دا را پخش کن,بعدی را پخش کن,different_intent,play_audiobook,play_podcasts,0.375,True,False,False,0.6767893,0.9447334,0.5853952,0.7931167
+دا را پخش کن,مونولوگ را پخش کن,different_intent,play_audiobook,play_podcasts,0.3157894736842105,True,False,False,0.7045511,0.92999387,0.62948596,0.7077634
+دا را از ادامه پخش کن,عاشقانه را از ادامه پخش کن,different_intent,play_audiobook,play_music,0.5357142857142857,True,True,False,0.59585047,0.9368807,0.49815765,0.7944681
+کتاب صوتی را متوقف کن,کتاب صوتی را باز کن,different_argument,play_audiobook,play_audiobook,0.5,False,False,False,0.6379657,0.9616566,0.5655172,0.836782
+متوقف کن,بازی کن,different_intent,play_audiobook,play_game,0.13333333333333333,False,False,False,0.4845352,0.8717282,0.3540175,0.6394902
+متوقف کن,جایگزین کن,different_intent,play_audiobook,lists_remove,0.1111111111111111,False,True,False,0.4518469,0.90183806,0.2783393,0.6726079
+آهنگ های عاشقانه پخش کن,آهنگ های کلاسیک پخش کن,different_argument,play_music,play_music,0.45161290322580644,True,True,False,0.5992018,0.94707394,0.5435736,0.7762594
+لطفا فایل صوتی دا را پخش کن,فایل صوتی بعدی را پخش کن,different_intent,play_audiobook,play_podcasts,0.6153846153846154,True,False,False,0.7680814,0.9428711,0.86407256,0.7860368
+لطفا فایل صوتی دا را پخش کن,فایل صوتی مونولوگ را پخش کن,different_intent,play_audiobook,play_podcasts,0.5517241379310345,True,False,False,0.8706581,0.9251849,0.7622143,0.7421425
+لطفا فایل صوتی دا را پخش کن,فایل صوتی را مجدد پخش کن,different_intent,play_audiobook,play_podcasts,0.6153846153846154,True,True,False,0.72553957,0.9242764,0.7794267,0.8057506
+لطفا فایل صوتی دا را پخش کن,فایل صوتی قبلی را پخش کن,different_intent,play_audiobook,play_podcasts,0.6153846153846154,True,True,False,0.8259384,0.94740134,0.8096383,0.77833533
+چطوری پیتزا درست کنم,چطور پیتزا درست کنم,same_meaning,cooking_recipe,cooking_recipe,0.782608695652174,False,False,False,0.99762636,0.9985872,0.99803096,0.9963083
+چطور کوکی درست کنم,چطور پیتزا درست کنم,different_argument,cooking_recipe,cooking_recipe,0.5,True,True,False,0.5290869,0.9161831,0.58654255,0.671024
+چطور کوکی درست کنم,چطور ماکارونی درست کنم,different_argument,cooking_recipe,cooking_recipe,0.5,True,True,False,0.62044716,0.9207479,0.74905497,0.71788526
+چطور پیتزا درست کنم,چطور ماکارونی درست کنم,different_argument,cooking_recipe,cooking_recipe,0.43333333333333335,True,True,False,0.41698185,0.90054286,0.72748566,0.68858445
+با من اسکربل بازی کن,با من فوتبال بازی کن,different_argument,play_game,play_game,0.48148148148148145,True,True,False,0.6921462,0.91871655,0.6416358,0.78105193
+با من اسکربل بازی کن,با من مار بازی کن,different_argument,play_game,play_game,0.48,True,True,False,0.91258955,0.9094641,0.71998286,0.79047453
+با من اسکربل بازی کن,با من شطرنج بازی کن,different_argument,play_game,play_game,0.4444444444444444,True,True,False,0.6773177,0.92034465,0.8824421,0.8062092
+سالیتر را باز کن,بازی ها را باز کن,different_argument,play_game,play_game,0.3,True,True,False,0.63467526,0.8865021,0.6039698,0.70742834
+سالیتر را باز کن,مخاطبین را باز کن,different_intent,play_game,email_addcontact,0.2608695652173913,True,True,False,0.6406001,0.9053852,0.5265735,0.6972231
+بیا پینبال بازی کنیم,بیا چکرز بازی کنیم,different_argument,play_game,play_game,0.48148148148148145,True,True,False,0.64059687,0.9286389,0.81035113,0.7243654
+بیا پینبال بازی کنیم,بیا شطرنج بازی کنیم,different_argument,play_game,play_game,0.4642857142857143,True,True,False,0.606056,0.9246633,0.5505618,0.76669025
+بازی را شروع کن,بازی را پیدا کن,same_meaning,play_game,play_game,0.3684210526315789,False,False,False,0.6630224,0.94631016,0.6919537,0.81969273
+بازی را شروع کن,پاسخ را شروع کن,different_intent,play_game,email_sendemail,0.3684210526315789,False,False,False,0.57746917,0.9420384,0.56796074,0.8185044
+بازی را پیدا کن,فهرست را پیدا کن,different_intent,play_game,lists_query,0.35,False,False,False,0.49718446,0.9179139,0.43592313,0.7558805
+بازی را پیدا کن,اطلاعات رو برام پیدا کن,different_intent,play_game,qa_definition,0.3181818181818182,False,False,False,0.42184222,0.8814008,0.46334827,0.7322942
+بازی را پیدا کن,مسیر را پیدا کن,different_intent,play_game,qa_factoid,0.3684210526315789,False,False,False,0.5441433,0.9303554,0.51414347,0.7778181
+بازی را پیدا کن,مخاطب را پیدا کن,different_intent,play_game,email_query,0.35,False,False,False,0.64334947,0.9071764,0.4408425,0.691597
+با من فوتبال بازی کن,با من مار بازی کن,different_argument,play_game,play_game,0.48,True,True,False,0.7168961,0.92101574,0.56274945,0.7757213
+با من فوتبال بازی کن,با من شطرنج بازی کن,different_argument,play_game,play_game,0.4444444444444444,True,True,False,0.5366768,0.9301513,0.54331493,0.765424
+با من مار بازی کن,با من شطرنج بازی کن,different_argument,play_game,play_game,0.5,True,True,False,0.66614807,0.9152672,0.5694487,0.78988963
+بازی saga را باز کن,بازی racing را باز کن,different_argument,play_game,play_game,0.391304347826087,False,False,False,0.5733484,0.9179467,0.4708954,0.76858354
+شطرنج بازی کن,میتونی شطرنج بازی کنی,same_meaning,play_game,play_game,0.8125,False,False,False,0.9309336,0.9365715,0.88612765,0.8562433
+بازی کن,جایگزین کن,different_intent,play_game,lists_remove,0.11764705882352941,False,True,False,0.30678177,0.8634709,0.21876755,0.678743
+بیا چکرز بازی کنیم,بیا شطرنج بازی کنیم,different_argument,play_game,play_game,0.5,True,True,False,0.60604644,0.9468171,0.7375792,0.7749576
+بازی ها را باز کن,مخاطبین را باز کن,different_intent,play_game,email_addcontact,0.2857142857142857,False,True,False,0.548877,0.9089426,0.5218613,0.70372725
+لطفا لیست خرید من را پاک کن,لطفا لیست خرید من را تکرار کن,different_intent,lists_remove,lists_query,0.5555555555555556,False,False,False,0.7936141,0.96733254,0.70599926,0.80430186
+اولین مورد از لیست را حذف کن,لطفا این مورد را از لیست حذف کن,same_meaning,lists_remove,lists_remove,0.7857142857142857,False,True,False,0.727451,0.9367581,0.8049517,0.7832427
+رویدادها از لیست من حذف کن,مورد را از لیست من حذف کن,same_meaning,lists_remove,lists_remove,0.5151515151515151,False,False,False,0.76608264,0.95940757,0.7901055,0.8755369
+مورد را حذف کن,لیست را حذف کن,same_meaning,lists_remove,lists_remove,0.3333333333333333,False,False,False,0.8142767,0.96061647,0.815873,0.7999465
+چه در لیست خرید امروز من است,چه در لیست کارهای امروز من است,different_argument,lists_query,lists_query,0.6111111111111112,True,False,False,0.72078586,0.95528483,0.7218647,0.8629204
+فهرست را پاک کن,لیست را پاک کن,same_meaning,lists_remove,lists_remove,0.47058823529411764,False,False,False,0.9846692,0.98010534,0.9935154,0.9760762
+فهرست را پاک کن,همه را پاک کن,same_meaning,lists_remove,lists_remove,0.3333333333333333,False,False,True,0.6641841,0.94063544,0.72167355,0.7998785
+فهرست را پاک کن,فهرست را پیدا کن,different_intent,lists_remove,lists_query,0.5,False,False,False,0.6486981,0.9540075,0.5554132,0.8339901
+لیست درست کن,لیست را حذف کن,different_intent,lists_createoradd,lists_remove,0.4117647058823529,False,False,False,0.5532553,0.94042385,0.64038813,0.8092662
+لیست درست کن,لیست را پاک کن,different_intent,lists_createoradd,lists_remove,0.4117647058823529,False,False,False,0.74748045,0.9452082,0.69354403,0.82329017
+لیست درست کن,لیست تنظیم کن,same_meaning,lists_createoradd,lists_createoradd,0.3684210526315789,False,False,False,0.90322477,0.9540321,0.8809156,0.86167836
+لیست درست کن,لیست را چک کن,different_intent,lists_createoradd,lists_query,0.4375,False,False,False,0.8202438,0.9589731,0.7933469,0.8670052
+لیست را حذف کن,لیست را پاک کن,same_meaning,lists_remove,lists_remove,0.4117647058823529,False,False,False,0.8254653,0.9755586,0.93936896,0.9590452
+لیست را حذف کن,لیست تنظیم کن,different_intent,lists_remove,lists_createoradd,0.3684210526315789,False,False,False,0.54312754,0.92457473,0.56507635,0.7560327
+لیست را حذف کن,لیست را چک کن,different_intent,lists_remove,lists_query,0.4375,False,False,False,0.51846075,0.9630311,0.5318791,0.8334701
+لیست کارهای انجام دادنی من را بررسی کن,لیست کارهای انجام دادنی من را حذف کن,different_intent,lists_query,lists_remove,0.7073170731707317,False,False,False,0.57461715,0.9565288,0.7165358,0.8379791
+لیست کارهای انجام دادنی من را بررسی کن,لیست کارهای انجام دادنی اخیر را بررسی کن,same_meaning,lists_query,lists_query,0.7804878048780488,False,False,False,0.7710429,0.96394145,0.88015664,0.90093076
+یک لیست جدید بساز,لطفا یک لیست خواروبار بساز,different_argument,lists_createoradd,lists_createoradd,0.42857142857142855,True,False,False,0.7339457,0.9129756,0.57074344,0.7853783
+خواروبار را به لیست اضافه کن,این را به لیست اضافه کن,same_meaning,lists_createoradd,lists_createoradd,0.5161290322580645,True,False,False,0.7346504,0.9365783,0.6817111,0.7605479
+لیست من را بالا بیاور,ایمیل من را بالا بیاور,different_intent,lists_query,email_query,0.5,False,False,False,0.47125185,0.96790624,0.60288584,0.8101189
+لطفا لیست زیر را حذف کن,لیست فعلی را حذف کن,same_meaning,lists_remove,lists_remove,0.5,False,True,False,0.77127826,0.9539698,0.89154613,0.85656613
+لطفا لیست زیر را حذف کن,لیست خواروبارها را حذف کن,different_argument,lists_remove,lists_remove,0.39285714285714285,True,True,False,0.820449,0.93178314,0.84600264,0.7757631
+لطفا لیست زیر را حذف کن,لیست من را حذف کن,same_meaning,lists_remove,lists_remove,0.55,False,True,False,0.78973407,0.94734323,0.8676703,0.8031499
+لطفا لیست زیر را حذف کن,لیست خرید را حذف کن,different_argument,lists_remove,lists_remove,0.5,True,True,False,0.6589825,0.9438556,0.7410985,0.7945716
+لیست فعلی را حذف کن,لیست خواروبارها را حذف کن,different_argument,lists_remove,lists_remove,0.3793103448275862,True,True,False,0.8836518,0.93088686,0.810239,0.81380856
+لیست فعلی را حذف کن,لیست من را حذف کن,same_meaning,lists_remove,lists_remove,0.5238095238095238,False,False,False,0.8560883,0.9599031,0.9141387,0.89401585
+لیست فعلی را حذف کن,لیست خرید را حذف کن,different_argument,lists_remove,lists_remove,0.4782608695652174,True,False,False,0.78553736,0.9524738,0.79089737,0.8742186
+فلفل را از لیست خواروبار من حذف کن,شیر را از لیست خواروبار من حذف کن,same_meaning,lists_remove,lists_remove,0.7027027027027027,True,True,False,0.6170138,0.95412767,0.5818011,0.8522458
+لیست خرید را پاک کن,لیست خرید را حذف کن,same_meaning,lists_remove,lists_remove,0.5454545454545454,False,False,False,0.82905865,0.975255,0.9205794,0.96799374
+لیست من برای خرید را بخوان,لیست من را برای من بخوان,different_argument,lists_query,lists_query,0.72,True,False,False,0.768673,0.9656137,0.6991655,0.9047631
+مورد را از لیست حذف کن,آیتم را از لیست حذف کن,same_meaning,lists_remove,lists_remove,0.5384615384615384,False,True,False,0.8348235,0.9680433,0.88774884,0.9201829
+مورد را از لیست حذف کن,آن را از لیست حذف کن,same_meaning,lists_remove,lists_remove,0.5833333333333334,False,False,False,0.8887194,0.976187,0.91755325,0.88593495
+آیتم را از لیست حذف کن,آن را از لیست حذف کن,same_meaning,lists_remove,lists_remove,0.6521739130434783,False,True,False,0.8633045,0.96009517,0.8960539,0.87586206
+اوولی لیست را پاک کن,از لیست پاک کن,same_meaning,lists_remove,lists_remove,0.5714285714285714,False,False,False,0.85557675,0.9583631,0.9215485,0.86436975
+لیست را پاک کن,همه را پاک کن,same_meaning,lists_remove,lists_remove,0.35294117647058826,False,False,True,0.65052867,0.94205856,0.73241746,0.803967
+لیست را پاک کن,لیست تنظیم کن,different_intent,lists_remove,lists_createoradd,0.3684210526315789,False,False,False,0.7189182,0.9189007,0.56272537,0.7558578
+لیست را پاک کن,لیست را چک کن,different_intent,lists_remove,lists_query,0.5333333333333333,False,False,False,0.68113554,0.96836394,0.5588459,0.85602546
+لیست خواروبارها را حذف کن,لیست من را حذف کن,different_argument,lists_remove,lists_remove,0.4074074074074074,True,True,False,0.8788852,0.9282896,0.8180183,0.8159064
+لیست خواروبارها را حذف کن,لیست خرید را حذف کن,different_argument,lists_remove,lists_remove,0.42857142857142855,True,True,False,0.87066793,0.931792,0.80340594,0.84076494
+فهرست جدید,توئیت جدید,different_intent,lists_createoradd,social_post,0.29411764705882354,True,False,False,0.39177763,0.88686764,0.5480358,0.59952056
+فهرست جدید,آدرس جدید,different_intent,lists_createoradd,email_sendemail,0.23529411764705882,False,False,False,0.5174775,0.8920233,0.551018,0.6731498
+لیست من را حذف کن,لیست خرید را حذف کن,different_argument,lists_remove,lists_remove,0.5238095238095238,True,False,False,0.79544985,0.9541464,0.7730442,0.8954916
+لیست من را حذف کن,لیست من را باز کن,different_intent,lists_remove,lists_query,0.5,False,False,False,0.61768645,0.96361303,0.5634466,0.8602138
+لیست من را حذف کن,لیست من را بررسی کن,different_intent,lists_remove,lists_query,0.45454545454545453,False,False,False,0.58713114,0.9547232,0.59501123,0.8431042
+درباره لیست به من بگو,درباره سمیرم به من بگو,different_intent,lists_query,qa_factoid,0.48,False,False,False,0.4069698,0.89461076,0.3916375,0.65413034
+لیست من را برای من بخوان,لیست خواروبارم را برای من بخوان,different_argument,lists_query,lists_query,0.6206896551724138,True,True,False,0.8071214,0.9548749,0.88155913,0.86042565
+لطفا شکر را به لیست خواروبار من اضافه کن,لطفا پرتقال را به لیست خواروبار من اضافه کن,same_meaning,lists_createoradd,lists_createoradd,0.6829268292682927,True,True,False,0.53207624,0.9615065,0.6210207,0.78599787
+لطفا شکر را به لیست خواروبار من اضافه کن,شیر را به لیست خواروبار من اضافه کن,same_meaning,lists_createoradd,lists_createoradd,0.8333333333333334,True,True,False,0.6138983,0.9516775,0.65676713,0.8378848
+خط آخر را حذف کن,عبارت آخر را حذف کن,same_meaning,lists_remove,lists_remove,0.47619047619047616,False,True,False,0.89030886,0.9701338,0.8997638,0.8881184
+لیست کارهای انجام دادنی را حذف کن,لیست چیزهای انجام دادنی را حذف کن,different_argument,lists_remove,lists_remove,0.7222222222222222,True,True,False,0.98635125,0.98405874,0.9916833,0.9759334
+لیست من را باز کن,لیست من را بررسی کن,same_meaning,lists_query,lists_query,0.5238095238095238,False,False,False,0.9022763,0.97162336,0.83752596,0.9286097
+لطفا پرتقال را به لیست خواروبار من اضافه کن,شیر را به لیست خواروبار من اضافه کن,same_meaning,lists_createoradd,lists_createoradd,0.6829268292682927,True,True,False,0.42388427,0.94395363,0.5459623,0.779686
+لیست تنظیم کن,لیست را چک کن,different_intent,lists_createoradd,lists_query,0.3888888888888889,False,False,False,0.66177005,0.9365983,0.7239607,0.76802236
+فهرست را پیدا کن,اطلاعات رو برام پیدا کن,different_intent,lists_query,qa_definition,0.36363636363636365,False,False,False,0.5149935,0.9009142,0.5257343,0.7395273
+فهرست را پیدا کن,مسیر را پیدا کن,different_intent,lists_query,qa_factoid,0.35,False,False,False,0.49508056,0.92413056,0.48364645,0.72965014
+فهرست را پیدا کن,مخاطب را پیدا کن,different_intent,lists_query,email_query,0.3333333333333333,False,False,False,0.56504196,0.90996414,0.39505005,0.6552756
+لیست را چک کن,جیمیل را چک کن,different_intent,lists_query,email_query,0.2777777777777778,False,False,False,0.6359119,0.92564464,0.6240903,0.7603173
+بعدی را پخش کن,مونولوگ را پخش کن,different_argument,play_podcasts,play_podcasts,0.2857142857142857,True,False,False,0.5569594,0.92435384,0.64138305,0.69661117
+فایل صوتی بعدی را پخش کن,فایل صوتی مونولوگ را پخش کن,different_argument,play_podcasts,play_podcasts,0.5161290322580645,True,False,False,0.83171034,0.93895674,0.8374467,0.73986995
+فایل صوتی بعدی را پخش کن,فایل صوتی را مجدد پخش کن,different_argument,play_podcasts,play_podcasts,0.5714285714285714,False,True,False,0.8394507,0.95924485,0.8382932,0.8487346
+فایل صوتی بعدی را پخش کن,فایل صوتی قبلی را پخش کن,different_argument,play_podcasts,play_podcasts,0.6296296296296297,False,True,False,0.9530275,0.9680221,0.9180655,0.8990137
+فایل صوتی بعدی را پخش کن,فایل صوتی بعدی را شروع کن,different_argument,play_podcasts,play_podcasts,0.6071428571428571,False,False,False,0.9008658,0.97697926,0.8972107,0.9284104
+قسمت بعد را پخش کن,قسمت بعد را شروع کن,same_meaning,play_podcasts,play_podcasts,0.5,False,False,False,0.8138356,0.955825,0.8445755,0.9042182
+فایل صوتی مونولوگ را پخش کن,فایل صوتی را مجدد پخش کن,different_argument,play_podcasts,play_podcasts,0.5666666666666667,True,True,False,0.81968236,0.94350654,0.8761761,0.7617928
+فایل صوتی مونولوگ را پخش کن,فایل های صوتی مونولوگ را پخش کن,same_meaning,play_podcasts,play_podcasts,0.7666666666666667,False,True,False,0.9670408,0.9729681,0.97528523,0.97515017
+فایل صوتی مونولوگ را پخش کن,فایل صوتی قبلی را پخش کن,different_argument,play_podcasts,play_podcasts,0.5161290322580645,True,True,False,0.9100027,0.9362999,0.8601721,0.7371559
+قسمت بعد فایل صوتی را پخش کن,قسمت بعدی فایل صوتی را پخش کن,different_argument,play_podcasts,play_podcasts,0.8275862068965517,True,False,False,0.8606857,0.9829549,0.9622389,0.96358985
+آخرین فایل صوتی مونولوگ را پخش کن,آخرین فایل صوتی علی را پخش کن,different_argument,play_podcasts,play_podcasts,0.6111111111111112,True,False,False,0.69141805,0.92827,0.59528893,0.79047114
+آخرین فایل صوتی مونولوگ را پخش کن,olly فایل صوتی مونولوگ را پخش کن,same_meaning,play_podcasts,play_podcasts,0.6486486486486487,False,False,False,0.80730206,0.94442046,0.7537414,0.8455565
+فایل صوتی را مجدد پخش کن,فایل صوتی قبلی را پخش کن,different_argument,play_podcasts,play_podcasts,0.5714285714285714,False,True,False,0.87876374,0.9580773,0.8970812,0.85628325
+جلو بزن لطفا,ایمیل بزن,different_intent,play_podcasts,email_sendemail,0.2,True,True,False,0.58516693,0.9283521,0.39419,0.61650825
+آخرین قسمت را به من نشان بده,آخرین ایمیلم را به من نشان بده,different_intent,play_podcasts,email_query,0.5882352941176471,True,True,False,0.6503099,0.93359935,0.57512915,0.78878933
+نزدیک‌ترین رستوران کجاست,نزدیک‌ترین شهروند کجاست,different_argument,recommendation_locations,recommendation_locations,0.48484848484848486,True,True,False,0.36804402,0.9195079,0.48540515,0.7382164
+لطفا یک تاکسی به فرودگاه برای من بگیر,یک تاکسی به آفیس برای من بگیر,different_argument,transport_taxi,transport_taxi,0.6153846153846154,True,True,False,0.87365365,0.951943,0.8375265,0.85403174
+ترافیک چطور است,ترافیک سنگین است,same_meaning,transport_traffic,transport_traffic,0.43478260869565216,False,True,False,0.7703966,0.9139805,0.8281525,0.89567393
+ترافیک چطور است,ترافیک سبک است,same_meaning,transport_traffic,transport_traffic,0.47619047619047616,False,True,False,0.703174,0.93514824,0.6469244,0.81956744
+بلیط برای قم,بلیط برای تهران,different_argument,transport_ticket,transport_ticket,0.5263157894736842,True,True,False,0.5871064,0.9453528,0.8304597,0.7905971
+یک بلیط قطار برای من رزرو کن,یک بلیط قطار برای مسافرت رزرو کن,same_meaning,transport_ticket,transport_ticket,0.7222222222222222,True,True,False,0.871723,0.9746369,0.92884356,0.9386655
+برام یه اسنپ بگیر,یه وسیله بگیر,different_argument,transport_taxi,transport_taxi,0.23529411764705882,True,True,False,0.56667113,0.9286815,0.62741834,0.76863205
+ترافیک سنگین است,ترافیک سبک است,same_meaning,transport_traffic,transport_traffic,0.5238095238095238,False,True,False,0.6763774,0.9735379,0.59010637,0.82612526
+الآن وضع ترافیک چطور است,الآن وضعیت ترافیک چطور است,same_meaning,transport_traffic,transport_traffic,0.7931034482758621,False,False,False,0.99018055,0.99273044,0.99852616,0.99638116
+زمان حرکت همه قطارها به نکا را لیست کن,برنامه حرکت همه قطارها به نکا را لیست کن,same_meaning,transport_query,transport_query,0.6976744186046512,False,False,False,0.95685065,0.97400415,0.91113603,0.9334423
+تعریف تناسخ چیست,تعریف تابع چیست,different_argument,qa_definition,qa_definition,0.5,False,False,False,0.62729394,0.85817784,0.6908986,0.48697898
+تعریف تناسخ چیست,تعریف منطق چیست,different_argument,qa_definition,qa_definition,0.43478260869565216,True,True,False,0.5510744,0.84361565,0.5408989,0.50850224
+تعریف تناسخ چیست,تعریف مارینارا چیست,different_argument,qa_definition,qa_definition,0.37037037037037035,False,False,False,0.58723617,0.79298526,0.47926962,0.31440502
+بلندترین قله‌ در جهان چیست,بلندترین سازه در جهان چیست,different_argument,qa_factoid,qa_factoid,0.7096774193548387,False,True,False,0.7844076,0.8995818,0.84814584,0.75413936
+معنی آشفتگی چیست,معنی دورویی چیست,different_argument,qa_definition,qa_definition,0.4166666666666667,True,True,False,0.76720154,0.813938,0.72845614,0.42055878
+معنی آشفتگی چیست,معنی پیروزی چیست,different_argument,qa_definition,qa_definition,0.4166666666666667,False,False,False,0.51456285,0.8220622,0.44738618,0.4744588
+معنی آشفتگی چیست,معنی فرضیه چیست,different_argument,qa_definition,qa_definition,0.375,False,False,False,0.58289456,0.814325,0.50358987,0.43108994
+معنی آشفتگی چیست,معنی وضعیت چیست,different_argument,qa_definition,qa_definition,0.375,False,False,False,0.7256704,0.85048926,0.730048,0.5088911
+سوگند چند ساله است,گوگوش چند ساله است,different_argument,qa_factoid,qa_factoid,0.48,True,True,False,0.8176927,0.9184016,0.5173326,0.6371174
+دوست ایمیل,اعلان‌های ایمیل,different_intent,email_sendemail,email_query,0.23809523809523808,False,True,False,0.56327766,0.93076444,0.5799937,0.7514472
+پایتخت نیجریه کجاست,پایتخت مکزیک کجاست,different_argument,qa_factoid,qa_factoid,0.4444444444444444,True,True,False,0.3724165,0.85165465,0.57082987,0.5558419
+پایتخت نیجریه کجاست,پایتخت قزاقستان کجاست,different_argument,qa_factoid,qa_factoid,0.4,True,True,False,0.35938948,0.853542,0.4317747,0.55833983
+کیهان چقدر بزرگ است,آلاسکا چقدر بزرگ است,different_argument,qa_factoid,qa_factoid,0.4642857142857143,True,True,False,0.66330206,0.81825036,0.64216024,0.5929809
+طوفان چیست,صندلی چیست,different_argument,qa_definition,qa_definition,0.2222222222222222,True,True,False,0.13044944,0.84509885,0.2641324,0.41610014
+طوفان چیست,انبه چیست,different_argument,qa_definition,qa_definition,0.23529411764705882,True,True,False,0.44231486,0.8460008,0.4204074,0.4686665
+طوفان چیست,پارسک چیست,different_intent,qa_definition,qa_factoid,0.2222222222222222,True,True,False,0.3860088,0.8280716,0.5992662,0.32771403
+طوفان چیست,آبدره چیست,different_intent,qa_definition,qa_factoid,0.2222222222222222,True,True,False,0.44986016,0.8271919,0.51479316,0.4083234
+طوفان چیست,دشداشه چیست,different_argument,qa_definition,qa_definition,0.21052631578947367,True,True,False,0.4625856,0.84846425,0.48657292,0.3525893
+طوفان چیست,کامپیوتر چیست,different_argument,qa_definition,qa_definition,0.19047619047619047,True,True,False,0.2740942,0.833132,0.3001026,0.46687022
+نوسان به چه معناست,توئیت به چه معناست,different_argument,qa_definition,qa_definition,0.46153846153846156,True,True,False,0.45318472,0.80064034,0.47205818,0.4795851
+محاسبه را حل کن,مشکل را حل کن,different_intent,qa_maths,general_quirky,0.3333333333333333,True,True,False,0.7252599,0.9587215,0.82492065,0.7938349
+معنی دورویی چیست,معنی پیروزی چیست,different_argument,qa_definition,qa_definition,0.4166666666666667,True,True,False,0.44902992,0.8158723,0.61154914,0.3996377
+معنی دورویی چیست,معنی فرضیه چیست,different_argument,qa_definition,qa_definition,0.375,True,True,False,0.5885802,0.8380364,0.5242275,0.4697892
+معنی دورویی چیست,معنی وضعیت چیست,different_argument,qa_definition,qa_definition,0.375,True,True,False,0.7460634,0.8178589,0.74229807,0.41246122
+تعریف انگیزه را بگو,تعریف زندگی,different_argument,qa_definition,qa_definition,0.3157894736842105,True,False,False,0.5593531,0.8413694,0.59709823,0.5652873
+تعریف انگیزه را بگو,تعریف سرعت,different_argument,qa_definition,qa_definition,0.3333333333333333,True,True,False,0.29039842,0.84259164,0.31794634,0.5727087
+چارچوب را تعریف کن,مبهوت را تعریف کن,different_argument,qa_definition,qa_definition,0.34782608695652173,True,True,False,0.23142374,0.88117826,0.5146885,0.5233716
+چارچوب را تعریف کن,تنبلی را تعریف کن,different_argument,qa_definition,qa_definition,0.34782608695652173,True,True,False,0.3300287,0.90451646,0.24977799,0.53648424
+چارچوب را تعریف کن,پتو را تعریف کن,different_argument,qa_definition,qa_definition,0.38095238095238093,True,True,False,0.14913805,0.90054524,0.40708417,0.55823463
+چارچوب را تعریف کن,بلندگو را تعریف کن,different_argument,qa_definition,qa_definition,0.3333333333333333,False,True,False,0.28507924,0.90488267,0.24780975,0.6394964
+صندلی چیست,انبه چیست,different_argument,qa_definition,qa_definition,0.23529411764705882,True,True,False,0.38026917,0.84365517,0.52206916,0.33841002
+صندلی چیست,پارسک چیست,different_intent,qa_definition,qa_factoid,0.2222222222222222,True,True,False,0.24189709,0.8282042,0.47381124,0.31414825
+صندلی چیست,آبدره چیست,different_intent,qa_definition,qa_factoid,0.2222222222222222,True,True,False,0.21519434,0.80539846,0.44067144,0.41538975
+صندلی چیست,دشداشه چیست,different_argument,qa_definition,qa_definition,0.21052631578947367,True,True,False,0.35448384,0.8480083,0.42328858,0.3877199
+صندلی چیست,کامپیوتر چیست,different_argument,qa_definition,qa_definition,0.19047619047619047,True,True,False,0.25227103,0.85435176,0.4208125,0.57335055
+انبه چیست,پارسک چیست,different_intent,qa_definition,qa_factoid,0.23529411764705882,False,False,False,0.7822752,0.8324855,0.7700304,0.28467128
+انبه چیست,آبدره چیست,different_intent,qa_definition,qa_factoid,0.3125,False,False,False,0.53060293,0.8395722,0.67094946,0.48051488
+انبه چیست,دشداشه چیست,different_argument,qa_definition,qa_definition,0.29411764705882354,False,False,False,0.85651064,0.8685961,0.5565444,0.38238302
+انبه چیست,کامپیوتر چیست,different_argument,qa_definition,qa_definition,0.2,True,True,False,0.40799534,0.8364454,0.45598534,0.41049775
+اطلاعات رو برام پیدا کن,مسیر را پیدا کن,different_intent,qa_definition,qa_factoid,0.3181818181818182,False,False,False,0.42988372,0.89344966,0.5097952,0.74185705
+اطلاعات رو برام پیدا کن,مخاطب را پیدا کن,different_intent,qa_definition,email_query,0.30434782608695654,False,False,False,0.5282677,0.89907193,0.46877223,0.68843424
+پارسک چیست,آبدره چیست,different_argument,qa_factoid,qa_factoid,0.2222222222222222,False,False,False,0.37068242,0.8112464,0.7293008,0.3205154
+پارسک چیست,دشداشه چیست,different_intent,qa_factoid,qa_definition,0.21052631578947367,False,False,False,0.7301266,0.86140263,0.73116493,0.29905564
+پارسک چیست,کامپیوتر چیست,different_intent,qa_factoid,qa_definition,0.19047619047619047,True,True,False,0.24777797,0.834322,0.42042127,0.33980083
+جمعیت شیراز چقدر است,جمعیت نیویورک چقدر است,different_argument,qa_factoid,qa_factoid,0.4666666666666667,True,True,False,0.33343527,0.8429933,0.5196987,0.6032729
+جمعیت شیراز چقدر است,جمعیت روسیه چقدر است,different_argument,qa_factoid,qa_factoid,0.5,True,True,False,0.48568523,0.8522607,0.5905442,0.6142814
+تعریف تابع چیست,تعریف منطق چیست,different_argument,qa_definition,qa_definition,0.45454545454545453,True,True,False,0.67432356,0.89554965,0.63060254,0.52067566
+تعریف تابع چیست,تعریف مارینارا چیست,different_argument,qa_definition,qa_definition,0.38461538461538464,False,False,False,0.45208144,0.8114151,0.52011347,0.29817605
+تعریف منطق چیست,تعریف مارینارا چیست,different_argument,qa_definition,qa_definition,0.44,True,True,False,0.33167416,0.79701227,0.3401916,0.31227326
+تعریف زندگی,تعریف سرعت,different_argument,qa_definition,qa_definition,0.35294117647058826,True,True,False,0.41070497,0.8570279,0.29778895,0.52570647
+مبهوت را تعریف کن,تنبلی را تعریف کن,different_argument,qa_definition,qa_definition,0.36363636363636365,True,True,False,0.5260339,0.90486765,0.42124188,0.5962042
+مبهوت را تعریف کن,پتو را تعریف کن,different_argument,qa_definition,qa_definition,0.4,True,True,False,0.69187355,0.8984288,0.81090415,0.5838444
+مبهوت را تعریف کن,بلندگو را تعریف کن,different_argument,qa_definition,qa_definition,0.34782608695652173,True,True,False,0.7638326,0.8808925,0.5087459,0.59767365
+تولد همینگوی چه زمانی است,تولد گوگوش چه زمانی است,different_argument,qa_factoid,qa_factoid,0.5151515151515151,True,True,False,0.6897578,0.86125934,0.8483159,0.6737642
+موز چه شکلی است,پیراهن چه شکلی است,different_argument,qa_definition,qa_definition,0.4583333333333333,True,True,False,0.38341978,0.8398893,0.35408533,0.5662323
+جهرم کجاست,دانمارک کجاست,different_argument,qa_factoid,qa_factoid,0.25,True,True,False,0.20569319,0.8787004,0.33851582,0.4596519
+جهرم کجاست,فیجی کجاست,different_argument,qa_factoid,qa_factoid,0.29411764705882354,True,True,False,0.31913555,0.9131793,0.605399,0.38349348
+عواقب رنج,عواقب اعمال,same_meaning,qa_definition,qa_definition,0.375,True,True,False,0.7469176,0.9400432,0.81274045,0.73174703
+دانمارک کجاست,فیجی کجاست,different_argument,qa_factoid,qa_factoid,0.25,True,True,False,0.14577426,0.8468635,0.19717574,0.384704
+تنبلی را تعریف کن,پتو را تعریف کن,different_argument,qa_definition,qa_definition,0.4,True,True,False,0.55204666,0.9126273,0.3068787,0.55289316
+تنبلی را تعریف کن,بلندگو را تعریف کن,different_argument,qa_definition,qa_definition,0.34782608695652173,True,True,False,0.57444006,0.89278257,0.17619593,0.57022
+آبدره چیست,دشداشه چیست,different_intent,qa_factoid,qa_definition,0.2777777777777778,False,False,False,0.48449227,0.849911,0.70510215,0.42885214
+آبدره چیست,کامپیوتر چیست,different_intent,qa_factoid,qa_definition,0.19047619047619047,True,True,False,0.20516098,0.81577575,0.2882635,0.3796463
+معنی پیروزی چیست,معنی فرضیه چیست,different_argument,qa_definition,qa_definition,0.375,False,False,False,0.35710734,0.82843876,0.37938386,0.49939483
+معنی پیروزی چیست,معنی وضعیت چیست,different_argument,qa_definition,qa_definition,0.375,False,False,False,0.52372235,0.8293098,0.54084384,0.53372973
+جهنم را توصیف کن,کره را توصیف کن,different_argument,qa_definition,qa_definition,0.42105263157894735,True,True,False,0.27514717,0.9192554,0.4122358,0.6431304
+جهنم را توصیف کن,ماه رو توصیف کن,different_argument,qa_definition,qa_definition,0.42105263157894735,True,False,True,0.34836665,0.89098775,0.3139106,0.66430056
+پتو را تعریف کن,بلندگو را تعریف کن,different_argument,qa_definition,qa_definition,0.45,True,True,False,0.8114418,0.90132475,0.5243622,0.5884178
+اطلاعات آسیا,اطلاعات اجتماعی,different_intent,qa_factoid,social_query,0.38095238095238093,True,True,False,0.4387641,0.88134843,0.33828002,0.687655
+یورو در برابر دلار کانادا چقدر ارزش دارد,یورو در برابر دلار امریکا چقدر ارزش دارد,different_argument,qa_currency,qa_currency,0.717391304347826,True,True,False,0.8420303,0.94404674,0.8235971,0.8111543
+هی یک کتاب چیست,یک فرضیه چیست,different_argument,qa_definition,qa_definition,0.35,True,False,False,0.14263529,0.80985355,0.3096351,0.4756386
+معنی فرضیه چیست,یک فرضیه چیست,same_meaning,qa_definition,qa_definition,0.5,False,False,True,0.89993525,0.9720155,0.96375,0.878931
+معنی فرضیه چیست,معنی وضعیت چیست,different_argument,qa_definition,qa_definition,0.391304347826087,False,False,False,0.6846962,0.83530056,0.6101651,0.56176174
+دشداشه چیست,کامپیوتر چیست,different_argument,qa_definition,qa_definition,0.18181818181818182,True,True,False,0.3132871,0.82671016,0.2645111,0.35680997
+پایتخت مکزیک کجاست,پایتخت قزاقستان کجاست,different_argument,qa_factoid,qa_factoid,0.41379310344827586,True,True,False,0.30945674,0.90235806,0.502402,0.65161663
+مسیر را پیدا کن,مخاطب را پیدا کن,different_intent,qa_factoid,email_query,0.42105263157894735,False,False,False,0.5885595,0.923598,0.5178325,0.7437877
+جمعیت نیویورک چقدر است,جمعیت روسیه چقدر است,different_argument,qa_factoid,qa_factoid,0.4666666666666667,True,True,False,0.34971556,0.8360153,0.61475885,0.6113237
+توضیح بده,پاسخ بده,different_intent,qa_definition,email_sendemail,0.1875,False,False,False,0.61256385,0.94836533,0.6159224,0.79349554
+نرخ مبادله ارز,نرخ‌های مبادله ارز,same_meaning,qa_currency,qa_currency,0.65,False,True,False,0.9713165,0.97741705,0.99049705,0.94097453
+کره را توصیف کن,ماه رو توصیف کن,different_argument,qa_definition,qa_definition,0.5294117647058824,True,True,True,0.40820533,0.8836403,0.47387105,0.71551096
+نرخ تبدیل دلار به روپیه,نرخ تبدیل دلار به ریال,different_argument,qa_currency,qa_currency,0.6785714285714286,True,True,False,0.95784837,0.9633017,0.96267414,0.8753352
+جدیدترین اعلامیه‌ها را به من نمایش بده,جدیدترین ایمیل‌ها را به من نمایش بده,different_intent,social_query,email_query,0.6585365853658537,True,True,False,0.65618974,0.96507084,0.7381001,0.8153217
+توئیت جدید,آدرس جدید,different_intent,social_post,email_sendemail,0.23529411764705882,True,False,False,0.40230826,0.9299723,0.3653201,0.6057031
+شکایت توئیت کن,به توئیت کن,same_meaning,social_post,social_post,0.4444444444444444,False,False,False,0.6586971,0.9460594,0.79155415,0.822664
+لطفا ایمیل‌های جدید را بررسی کن,ایمیل جدید را بررسی کن,same_meaning,email_query,email_query,0.72,False,False,False,0.89198923,0.9497695,0.9066911,0.95573485
+به ایمیل امیر پاسخ بده,به ایمیل علی پاسخ بده,different_argument,email_sendemail,email_sendemail,0.6071428571428571,True,False,False,0.71274126,0.9741826,0.8515629,0.885791
+آیا چیز جدیدی در صندوق ورودی من وجود دارد,آیا ایمیل جدیدی در صندوق ورودی من وجود دارد,different_argument,email_query,email_query,0.75,False,False,False,0.74604475,0.956603,0.7237522,0.86660874
+لطفا یک ایمیل به علی بفرست,یک ایمیل به ندا بفرست,different_argument,email_sendemail,email_sendemail,0.6296296296296297,True,False,False,0.53833556,0.9380332,0.5007365,0.77159023
+لطفا یک ایمیل به علی بفرست,یک پاسخ به علی بفرست,same_meaning,email_sendemail,email_sendemail,0.5357142857142857,False,False,False,0.8155715,0.9520974,0.9095261,0.81262344
+به ندا ایمیل بزن,به علی ایمیل بزن,different_argument,email_sendemail,email_sendemail,0.5454545454545454,True,False,False,0.5890354,0.95625174,0.49970785,0.8060772
+به ندا ایمیل بزن,به آزاده ایمیل بزن,different_argument,email_sendemail,email_sendemail,0.5,True,False,False,0.7132303,0.9440783,0.73560345,0.7902113
+صندوق ورودی من را چک کن,لطفا صندوق پستی من را چک کن,different_argument,email_query,email_query,0.5769230769230769,True,True,False,0.7212955,0.9595361,0.78959966,0.9013258
+به رئیس من ایمیل بفرست,به مدیر من ایمیل بفرست,different_argument,email_sendemail,email_sendemail,0.5862068965517241,True,True,False,0.89952683,0.9746,0.94563377,0.9351414
+ایمیل‌های دو ساعت گذشته را چک کن,ایمیل‌های دوازده ساعت گذشته را چک کن,different_argument,email_query,email_query,0.7714285714285715,True,False,True,0.89024746,0.9675487,0.85819405,0.9621419
+من چه ایمیل‌ جدیدی دارم,من چه پیام‌های جدیدی دارم,same_meaning,email_query,email_query,0.5,False,True,False,0.69671774,0.91335833,0.7160582,0.85582376
+ایمیل جدید را بررسی کن,ایمیل جدید را چک کن,same_meaning,email_query,email_query,0.5416666666666666,False,False,False,0.95741296,0.97213227,0.9646176,0.9696286
+به ایمیل پاسخ بده,به همه پاسخ بده,same_meaning,email_sendemail,email_sendemail,0.4782608695652174,False,False,True,0.54427123,0.9255152,0.61188865,0.75670975
+پاسخ بفرست,پاسخ بنویس,same_meaning,email_sendemail,email_sendemail,0.375,False,False,False,0.86764777,0.9422573,0.90189326,0.73467946
+پاسخ بفرست,پاسخ بده,same_meaning,email_sendemail,email_sendemail,0.42857142857142855,False,False,False,0.9188622,0.9295438,0.9237935,0.7745244
+پاسخ بنویس,ایمیل بنویس,same_meaning,email_sendemail,email_sendemail,0.2777777777777778,False,False,False,0.5947562,0.9396554,0.5865283,0.78427196
+پاسخ بنویس,پاسخ بده,same_meaning,email_sendemail,email_sendemail,0.42857142857142855,False,False,False,0.8672984,0.9625164,0.92841226,0.7760003
+ایمیل من را چک کن,ایمیل جدید را چک کن,same_meaning,email_query,email_query,0.5238095238095238,False,False,False,0.85264814,0.9590008,0.8656995,0.8962656
+آیا من هیچ ایمیل جدیدی از فرامرز دریافت کرده‌ام,آیا من هیچ ایمیل جدیدی از آرش دریافت کرده‌ام,different_argument,email_query,email_query,0.7547169811320755,True,True,False,0.8821197,0.94041467,0.8432251,0.86181873
+آیا من ایمیل جدیدی دارم,سلام من ایمیل جدیدی دارم,same_meaning,email_query,email_query,0.6333333333333333,False,False,False,0.8973055,0.9534553,0.9123062,0.92993474
+آیا من ایمیل جدیدی دارم,آیا من ایمیل دریافتی دارم,same_meaning,email_query,email_query,0.5625,False,True,False,0.7995511,0.9460405,0.8607037,0.8724464
+ایمیل های جدید را بخوان,لطفا ایمیل‌های جدیدم را بخوان,same_meaning,email_query,email_query,0.782608695652174,False,True,False,0.87661755,0.9717889,0.9206409,0.9336604
+سلام ایمیل ها را چک کن,سلام ایمیل را چک کن,same_meaning,email_query,email_query,0.7142857142857143,False,True,False,0.9430944,0.9799452,0.9807564,0.9749959
+به علی ایمیل بده,به علی ایمیل بزن,same_meaning,email_sendemail,email_sendemail,0.7,True,False,False,0.9905064,0.99067926,0.9768786,0.9770404
+ایمیل بزن,ایمیل بنویس,same_meaning,email_sendemail,email_sendemail,0.4666666666666667,True,False,False,0.92784077,0.9575771,0.9346996,0.8783705
+لطفاً ایمیل اخیر این فرستنده را بررسی کن,لطفاً ایمیل آخر این فرستنده را بررسی کن,same_meaning,email_query,email_query,0.7428571428571429,False,False,False,0.9259613,0.9902592,0.95925677,0.9628008
+ایمیل‌های علی را چک کن,ایمیل‌های نادیا را چک کن,different_argument,email_query,email_query,0.5384615384615384,True,True,False,0.74994344,0.95959485,0.6840912,0.7967857
+من می‌خواهم به ایمیل اخیر پاسخ بدهم,من می‌خواهم به ایمیل جواد پاسخ بدهم,different_argument,email_sendemail,email_sendemail,0.7,True,False,False,0.6349411,0.9383639,0.6880747,0.8132634
+آیا علی برای من ایمیل فرستاده است,آیا امیر برای من ایمیل فرستاده است,different_argument,email_query,email_query,0.725,True,False,False,0.8490976,0.9540099,0.91123587,0.86269057
+به علی ایمیل بزن,به آزاده ایمیل بزن,different_argument,email_sendemail,email_sendemail,0.5,True,False,False,0.55354166,0.9460933,0.40616712,0.80224603
+ایمیل را پاسخ بده,ایمیل مخاطبم رو بده,different_intent,email_sendemail,email_querycontact,0.391304347826087,False,False,False,0.83762604,0.9403771,0.8410268,0.8582504
+به مخاطب جدید ایمیل بزن,به مخاطب جدید ایمیل بفرست,same_meaning,email_sendemail,email_sendemail,0.7241379310344828,True,False,False,0.9780923,0.99435,0.99052465,0.96996087

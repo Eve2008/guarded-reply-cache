@@ -1,0 +1,7 @@
+{
+ "base": "e5",
+ "C": 10.0,
+ "dev_accuracy": 0.8647,
+ "test_accuracy": 0.8547,
+ "seconds": 133.9
+}

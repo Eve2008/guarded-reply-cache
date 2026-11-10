@@ -1,0 +1,7 @@
+{
+ "base": "mpnet",
+ "C": 10.0,
+ "dev_accuracy": 0.8392,
+ "test_accuracy": 0.8413,
+ "seconds": 42.6
+}

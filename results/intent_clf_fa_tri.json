@@ -1,0 +1,7 @@
+{
+ "base": "tri",
+ "C": 10.0,
+ "dev_accuracy": 0.8416,
+ "test_accuracy": 0.8426,
+ "seconds": 202.2
+}

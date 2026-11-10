@@ -1,0 +1,52 @@
+{
+ "lang": "fa",
+ "queries": 500,
+ "trigram_repeats": 3,
+ "threads": 1,
+ "cpu": "13th Gen Intel(R) Core(TM) i9-13900H",
+ "logical_cpus": 20,
+ "load_average_at_start": [
+  41.43359375,
+  41.65966796875,
+  36.29052734375
+ ],
+ "load_average_at_end": [
+  37.1220703125,
+  37.662109375,
+  37.5205078125
+ ],
+ "versions": {
+  "python": "3.12.16",
+  "numpy": "2.5.4",
+  "torch": "2.15.0+cpu",
+  "sentence_transformers": "6.2.0"
+ },
+ "pool": 10863,
+ "lexicon_size": 4113,
+ "signature_buckets": {
+  "induced_5000": {
+   "distinct_signatures": 2922,
+   "median_shared": 0.0,
+   "p95_shared": 857.0,
+   "mean_share_of_index": 0.0311
+  },
+  "deployed_5000": {
+   "distinct_signatures": 184,
+   "median_shared": 3031.0,
+   "p95_shared": 3031.0,
+   "mean_share_of_index": 0.4139
+  },
+  "induced_10863": {
+   "distinct_signatures": 6633,
+   "median_shared": 1.0,
+   "p95_shared": 1702.0,
+   "mean_share_of_index": 0.0284
+  },
+  "deployed_10863": {
+   "distinct_signatures": 254,
+   "median_shared": 7205.0,
+   "p95_shared": 7205.0,
+   "mean_share_of_index": 0.4536
+  }
+ }
+}

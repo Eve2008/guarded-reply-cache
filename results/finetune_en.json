@@ -1,0 +1,15 @@
+{
+ "lang": "en",
+ "triples": 5712,
+ "batches": 104,
+ "batch": 64,
+ "lr": 2e-05,
+ "scale": 20.0,
+ "seed": 13,
+ "epochs": 1,
+ "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "base_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+ "train_seconds": 2041.0,
+ "final_loss_mean20": 1.7922,
+ "first_loss_mean20": 3.3861
+}

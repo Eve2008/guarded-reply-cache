@@ -1,0 +1,7 @@
+{
+ "base": "bgem3",
+ "C": 10.0,
+ "dev_accuracy": 0.8672,
+ "test_accuracy": 0.8729,
+ "seconds": 134.4
+}

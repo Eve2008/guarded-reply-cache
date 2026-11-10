@@ -1,0 +1,7 @@
+{
+ "base": "minilm",
+ "C": 10.0,
+ "dev_accuracy": 0.8475,
+ "test_accuracy": 0.8531,
+ "seconds": 62.2
+}
